@@ -108,6 +108,15 @@ namespace Necropsyology.Core.Recurso {
         /// <summary>
         ///   Busca una cadena traducida similar a .
         /// </summary>
+        public static string Obt {
+            get {
+                return ResourceManager.GetString("Obt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a .
+        /// </summary>
         public static string ObtenApp {
             get {
                 return ResourceManager.GetString("ObtenApp", resourceCulture);

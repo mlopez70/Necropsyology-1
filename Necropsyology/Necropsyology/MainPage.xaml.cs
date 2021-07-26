@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Necropsyology.Core.Recurso;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
 using Xamarin.Forms;
 
 namespace Necropsyology
@@ -16,6 +13,11 @@ namespace Necropsyology
         public MainPage()
         {
             InitializeComponent();
+            System.Globalization.CultureInfo infCul = new System.Globalization.CultureInfo("pt");
+            Thread.CurrentThread.CurrentCulture = infCul;
+            Thread.CurrentThread.CurrentUICulture = infCul;
+
+            LblInicio.Text = Recursos.Promo1.ToString();
         }
     }
 }

@@ -82,15 +82,15 @@
                                 <asp:ListItem Value="fr">Frances</asp:ListItem>
                             </asp:DropDownList></li>
                     </ul>
-
+                    <%--<div class="header-cta">
+                    <a href="#download" class="btn btn--primary header-cta__btn smoothscroll">
+                        <asp:Button ID="BtnApp" runat="server" Text="" /></a>
+                </div>--%>
 
                 </nav>
                 <!-- end header-nav-wrap -->
 
-                <div class="header-cta">
-                    <a href="#download" class="btn btn--primary header-cta__btn smoothscroll">
-                        <asp:Button ID="BtnApp" runat="server" Text="" /></a>
-                </div>
+                
                 <a class="header-menu-toggle" href="#"><span>Menu</span></a>
             </div>
 
