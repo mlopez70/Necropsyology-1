@@ -43,16 +43,23 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Recurso.Designer.cs">
+    <Compile Include="Recurso\Recursos.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Recurso.resx</DependentUpon>
+      <DependentUpon>Recursos.resx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Recurso.resx">
+    <EmbeddedResource Include="Recurso\Recursos.de-DE.resx" />
+    <EmbeddedResource Include="Recurso\Recursos.de.resx" />
+    <EmbeddedResource Include="Recurso\Recursos.es-MX.resx" />
+    <EmbeddedResource Include="Recurso\Recursos.fr-FR.resx" />
+    <EmbeddedResource Include="Recurso\Recursos.fr.resx" />
+    <EmbeddedResource Include="Recurso\Recursos.pt-BR.resx" />
+    <EmbeddedResource Include="Recurso\Recursos.pt.resx" />
+    <EmbeddedResource Include="Recurso\Recursos.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Recurso.Designer.cs</LastGenOutput>
+      <LastGenOutput>Recursos.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

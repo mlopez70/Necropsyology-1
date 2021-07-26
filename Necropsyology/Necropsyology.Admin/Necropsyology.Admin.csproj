@@ -114,7 +114,6 @@
     <Content Include="images\wheel-1000.jpg" />
     <Content Include="images\wheel-2000.jpg" />
     <Content Include="images\wheel-500.jpg" />
-    <Content Include="index.html" />
     <Content Include="js\jquery-3.2.1.min.js" />
     <Content Include="js\main.js" />
     <Content Include="js\modernizr.js" />
@@ -155,6 +154,7 @@
     <Content Include="css\micons\fonts\icomoon.ttf" />
     <Content Include="css\micons\fonts\icomoon.woff" />
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\NecropsyologyAdmin - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

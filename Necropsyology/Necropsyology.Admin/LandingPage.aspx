@@ -51,29 +51,46 @@
         <header class="s-header">
             <div class="row">
                 <div class="header-logo">
-                    <a class="site-logo" href="index.html"style="padding:20px">
+                    <a class="site-logo" href="index.html" style="padding: 20px">
                         <img src="images/Logotipo/LogoNecros1.png" alt="Homepage" style="width: 100px; height: 120px" />
                     </a>
                 </div>
-                
+
                 <nav class="header-nav-wrap">
                     <ul class="header-main-nav">
-                        <li class="current"><a class="smoothscroll" href="#home" title="intro"><asp:Label ID="LblIntro" runat="server" Text="Introducción introductoria"></asp:Label></a></li>
-                        <li><a class="smoothscroll" href="#about" title="about">Acerca</a></li>
-                        <li><a class="smoothscroll" href="#features" title="features">Mejoras</a></li>
-                        <li><a class="smoothscroll" href="#pricing" title="pricing">Precio</a></li>
-                        <li><a class="smoothscroll" href="#download" title="download">Descarga</a></li>
-                        <li><a style="color: yellow; font-size: 20px" href="#download" title="download">Login</a></li>
-                        <li><a style="color: yellow; font-size: 20px" href="#download" title="download">Registro</a></li>
+                        <li class="current"><a class="smoothscroll" href="#home" title="intro">
+                            <asp:Label ID="LblIntro" runat="server" Text=""></asp:Label></a></li>
+                        <li><a class="smoothscroll" href="#about" title="about">
+                            <asp:Label ID="LblAcerca" runat="server" Text=""></asp:Label></a></li>
+                        <li><a class="smoothscroll" href="#features" title="features">
+                            <asp:Label ID="LblMejoras" runat="server" Text=""></asp:Label></a></li>
+                        <li><a class="smoothscroll" href="#pricing" title="pricing">
+                            <asp:Label ID="LblPrecio" runat="server" Text=""></asp:Label>
+                        </a></li>
+                        <li><a class="smoothscroll" href="#download" title="download">
+                            <asp:Label ID="LblDescarga" runat="server" Text=""></asp:Label></a></li>
+                        <li><a style="color: yellow; font-size: 20px" href="#download"></a>
+                            <asp:LinkButton ID="LnkLogin" runat="server" BackColor="Transparent" ForeColor="Yellow" Font-Size="20px"></asp:LinkButton></li>
+                        <li><a style="color: yellow; font-size: 20px" href="#download">
+                            <asp:LinkButton ID="LnkRegistro" runat="server" BackColor="Transparent" ForeColor="Yellow" Font-Size="20px"></asp:LinkButton></a></li>
+                        <li>
+                            <asp:DropDownList ID="ddlidioma" runat="server" OnSelectedIndexChanged="ddlidioma_SelectedIndexChanged" AutoPostBack="True" Style="color: lightslategray">
+                                <asp:ListItem Value="es-MX">Español [ Mexico ]</asp:ListItem>
+                                <asp:ListItem Value="pt-BR">Portugues [Brasil]</asp:ListItem>
+                                <asp:ListItem Value="en-US">Ingles [EEUU]</asp:ListItem>
+                                <asp:ListItem Value="de">Aleman</asp:ListItem>
+                                <asp:ListItem Value="fr">Frances</asp:ListItem>
+                            </asp:DropDownList></li>
                     </ul>
 
-                    <div class="header-cta" style="margin=10">
-                        <a href="#download" class="btn btn--primary header-cta__btn smoothscroll">Obten Aplicación</a>
-                    </div>
 
                 </nav>
                 <!-- end header-nav-wrap -->
 
+                <div class="header-cta">
+                    <a href="#download" class="btn btn--primary header-cta__btn smoothscroll">
+                        <asp:Button ID="BtnApp" runat="server" Text="" /></a>
+                </div>
                 <a class="header-menu-toggle" href="#"><span>Menu</span></a>
             </div>
 
@@ -92,7 +109,8 @@
                 <div class="row home-content__main">
 
                     <div class="home-content__left">
-                        <h1>Gran aplicación que le permite hacer todo lo que usted necesita
+                        <h1>
+                            <asp:Label ID="LblPromo1" runat="server" Text=""></asp:Label>
                         </h1>
 
                         <h3>Voluptatem ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explica. Nemo enim ipsam voluptatem quia. 
@@ -106,7 +124,7 @@
                     <!-- end home-content__left-->
 
                     <div class="home-content__right">
-                       <img src="images/hero-app-screens-800.png" srcset="images/hero-app-screens-800.png 1x, images/hero-app-screens-1600.png 2x">
+                        <img src="images/hero-app-screens-800.png" srcset="images/hero-app-screens-800.png 1x, images/hero-app-screens-1600.png 2x">
                     </div>
                     <!-- end home-content__right -->
 
