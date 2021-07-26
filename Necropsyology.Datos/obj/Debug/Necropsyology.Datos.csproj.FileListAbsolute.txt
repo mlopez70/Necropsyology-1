@@ -1,0 +1,6 @@
+E:\Proyectos\ReneAndCo\Necropsyology\Necropsyology.Datos\bin\Debug\Necropsyology.Datos.dll
+E:\Proyectos\ReneAndCo\Necropsyology\Necropsyology.Datos\bin\Debug\Necropsyology.Datos.pdb
+E:\Proyectos\ReneAndCo\Necropsyology\Necropsyology.Datos\obj\Debug\Necropsyology.Datos.csprojAssemblyReference.cache
+E:\Proyectos\ReneAndCo\Necropsyology\Necropsyology.Datos\obj\Debug\Necropsyology.Datos.csproj.CoreCompileInputs.cache
+E:\Proyectos\ReneAndCo\Necropsyology\Necropsyology.Datos\obj\Debug\Necropsyology.Datos.dll
+E:\Proyectos\ReneAndCo\Necropsyology\Necropsyology.Datos\obj\Debug\Necropsyology.Datos.pdb

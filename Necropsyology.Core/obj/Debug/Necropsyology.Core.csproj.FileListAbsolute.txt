@@ -1,0 +1,8 @@
+E:\Proyectos\ReneAndCo\Necropsyology\Necropsyology.Core\bin\Debug\Necropsyology.Core.dll
+E:\Proyectos\ReneAndCo\Necropsyology\Necropsyology.Core\bin\Debug\Necropsyology.Core.pdb
+E:\Proyectos\ReneAndCo\Necropsyology\Necropsyology.Core\obj\Debug\Necropsyology.Core.csprojAssemblyReference.cache
+E:\Proyectos\ReneAndCo\Necropsyology\Necropsyology.Core\obj\Debug\Necropsyology.Core.csproj.GenerateResource.cache
+E:\Proyectos\ReneAndCo\Necropsyology\Necropsyology.Core\obj\Debug\Necropsyology.Core.csproj.CoreCompileInputs.cache
+E:\Proyectos\ReneAndCo\Necropsyology\Necropsyology.Core\obj\Debug\Necropsyology.Core.dll
+E:\Proyectos\ReneAndCo\Necropsyology\Necropsyology.Core\obj\Debug\Necropsyology.Core.pdb
+E:\Proyectos\ReneAndCo\Necropsyology\Necropsyology.Core\obj\Debug\Necropsyology.Core.Recurso.resources

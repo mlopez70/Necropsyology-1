@@ -51,14 +51,14 @@
         <header class="s-header">
             <div class="row">
                 <div class="header-logo">
-                    <a class="site-logo" href="index.html">
+                    <a class="site-logo" href="index.html"style="padding:20px">
                         <img src="images/Logotipo/LogoNecros1.png" alt="Homepage" style="width: 100px; height: 120px" />
                     </a>
                 </div>
-
+                
                 <nav class="header-nav-wrap">
                     <ul class="header-main-nav">
-                        <li class="current"><a class="smoothscroll" href="#home" title="intro">Introducción</a></li>
+                        <li class="current"><a class="smoothscroll" href="#home" title="intro"><asp:Label ID="LblIntro" runat="server" Text="Introducción introductoria"></asp:Label></a></li>
                         <li><a class="smoothscroll" href="#about" title="about">Acerca</a></li>
                         <li><a class="smoothscroll" href="#features" title="features">Mejoras</a></li>
                         <li><a class="smoothscroll" href="#pricing" title="pricing">Precio</a></li>

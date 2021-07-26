@@ -21,8 +21,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Necropsyology.Datos", "..\N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Necropsyology.Admin", "Necropsyology.Admin\Necropsyology.Admin.csproj", "{00A4CF3D-452C-421F-ADBE-FB2AA6CB0969}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Necropsyology.Lenguaje", "Necropsyology.Lenguaje\Necropsyology.Lenguaje.csproj", "{9E79C94F-F8B1-4305-9BCC-7F11649F0636}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -303,35 +301,13 @@ Global
 		{00A4CF3D-452C-421F-ADBE-FB2AA6CB0969}.Release|x64.Build.0 = Release|Any CPU
 		{00A4CF3D-452C-421F-ADBE-FB2AA6CB0969}.Release|x86.ActiveCfg = Release|Any CPU
 		{00A4CF3D-452C-421F-ADBE-FB2AA6CB0969}.Release|x86.Build.0 = Release|Any CPU
-		{9E79C94F-F8B1-4305-9BCC-7F11649F0636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9E79C94F-F8B1-4305-9BCC-7F11649F0636}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9E79C94F-F8B1-4305-9BCC-7F11649F0636}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{9E79C94F-F8B1-4305-9BCC-7F11649F0636}.Debug|ARM.Build.0 = Debug|Any CPU
-		{9E79C94F-F8B1-4305-9BCC-7F11649F0636}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{9E79C94F-F8B1-4305-9BCC-7F11649F0636}.Debug|iPhone.Build.0 = Debug|Any CPU
-		{9E79C94F-F8B1-4305-9BCC-7F11649F0636}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{9E79C94F-F8B1-4305-9BCC-7F11649F0636}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{9E79C94F-F8B1-4305-9BCC-7F11649F0636}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{9E79C94F-F8B1-4305-9BCC-7F11649F0636}.Debug|x64.Build.0 = Debug|Any CPU
-		{9E79C94F-F8B1-4305-9BCC-7F11649F0636}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{9E79C94F-F8B1-4305-9BCC-7F11649F0636}.Debug|x86.Build.0 = Debug|Any CPU
-		{9E79C94F-F8B1-4305-9BCC-7F11649F0636}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9E79C94F-F8B1-4305-9BCC-7F11649F0636}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9E79C94F-F8B1-4305-9BCC-7F11649F0636}.Release|ARM.ActiveCfg = Release|Any CPU
-		{9E79C94F-F8B1-4305-9BCC-7F11649F0636}.Release|ARM.Build.0 = Release|Any CPU
-		{9E79C94F-F8B1-4305-9BCC-7F11649F0636}.Release|iPhone.ActiveCfg = Release|Any CPU
-		{9E79C94F-F8B1-4305-9BCC-7F11649F0636}.Release|iPhone.Build.0 = Release|Any CPU
-		{9E79C94F-F8B1-4305-9BCC-7F11649F0636}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{9E79C94F-F8B1-4305-9BCC-7F11649F0636}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
-		{9E79C94F-F8B1-4305-9BCC-7F11649F0636}.Release|x64.ActiveCfg = Release|Any CPU
-		{9E79C94F-F8B1-4305-9BCC-7F11649F0636}.Release|x64.Build.0 = Release|Any CPU
-		{9E79C94F-F8B1-4305-9BCC-7F11649F0636}.Release|x86.ActiveCfg = Release|Any CPU
-		{9E79C94F-F8B1-4305-9BCC-7F11649F0636}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+		RESX_PrefixTranslations = True
+		RESX_NeutralResourcesLanguage = en-US
 		SolutionGuid = {ACA45E56-37CB-4959-A633-67C258020E78}
 	EndGlobalSection
 EndGlobal
