@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Necropsyology.Android", "Ne
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Necropsyology.iOS", "Necropsyology.iOS\Necropsyology.iOS.csproj", "{AEE60DEB-4F9F-4E3B-BF4D-D57C716A72A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Necropsyology", "Necropsyology\Necropsyology.csproj", "{5635C4A1-6EC1-4366-9B54-16A9B9C457EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Necropsyology", "Necropsyology\Necropsyology.csproj", "{5635C4A1-6EC1-4366-9B54-16A9B9C457EE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Necropsyology.WEB", "..\Necropsyology.WEB\Necropsyology.WEB.csproj", "{9B44B695-1E05-406D-837A-D16AB87C0F58}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Necropsyology.Core", "..\Necropsyology.Core\Necropsyology.Core.csproj", "{E27EA605-111A-4049-AB2A-B3B6B2A66590}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Necropsyology.Datos", "..\Necropsyology.Datos\Necropsyology.Datos.csproj", "{4436B7F8-9B8C-4568-B279-161D4745CB15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Necropsyology.Admin", "Necropsyology.Admin\Necropsyology.Admin.csproj", "{00A4CF3D-452C-421F-ADBE-FB2AA6CB0969}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -275,6 +277,30 @@ Global
 		{4436B7F8-9B8C-4568-B279-161D4745CB15}.Release|x64.Build.0 = Release|Any CPU
 		{4436B7F8-9B8C-4568-B279-161D4745CB15}.Release|x86.ActiveCfg = Release|Any CPU
 		{4436B7F8-9B8C-4568-B279-161D4745CB15}.Release|x86.Build.0 = Release|Any CPU
+		{00A4CF3D-452C-421F-ADBE-FB2AA6CB0969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00A4CF3D-452C-421F-ADBE-FB2AA6CB0969}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00A4CF3D-452C-421F-ADBE-FB2AA6CB0969}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{00A4CF3D-452C-421F-ADBE-FB2AA6CB0969}.Debug|ARM.Build.0 = Debug|Any CPU
+		{00A4CF3D-452C-421F-ADBE-FB2AA6CB0969}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{00A4CF3D-452C-421F-ADBE-FB2AA6CB0969}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{00A4CF3D-452C-421F-ADBE-FB2AA6CB0969}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{00A4CF3D-452C-421F-ADBE-FB2AA6CB0969}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{00A4CF3D-452C-421F-ADBE-FB2AA6CB0969}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{00A4CF3D-452C-421F-ADBE-FB2AA6CB0969}.Debug|x64.Build.0 = Debug|Any CPU
+		{00A4CF3D-452C-421F-ADBE-FB2AA6CB0969}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{00A4CF3D-452C-421F-ADBE-FB2AA6CB0969}.Debug|x86.Build.0 = Debug|Any CPU
+		{00A4CF3D-452C-421F-ADBE-FB2AA6CB0969}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00A4CF3D-452C-421F-ADBE-FB2AA6CB0969}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00A4CF3D-452C-421F-ADBE-FB2AA6CB0969}.Release|ARM.ActiveCfg = Release|Any CPU
+		{00A4CF3D-452C-421F-ADBE-FB2AA6CB0969}.Release|ARM.Build.0 = Release|Any CPU
+		{00A4CF3D-452C-421F-ADBE-FB2AA6CB0969}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{00A4CF3D-452C-421F-ADBE-FB2AA6CB0969}.Release|iPhone.Build.0 = Release|Any CPU
+		{00A4CF3D-452C-421F-ADBE-FB2AA6CB0969}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{00A4CF3D-452C-421F-ADBE-FB2AA6CB0969}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{00A4CF3D-452C-421F-ADBE-FB2AA6CB0969}.Release|x64.ActiveCfg = Release|Any CPU
+		{00A4CF3D-452C-421F-ADBE-FB2AA6CB0969}.Release|x64.Build.0 = Release|Any CPU
+		{00A4CF3D-452C-421F-ADBE-FB2AA6CB0969}.Release|x86.ActiveCfg = Release|Any CPU
+		{00A4CF3D-452C-421F-ADBE-FB2AA6CB0969}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
