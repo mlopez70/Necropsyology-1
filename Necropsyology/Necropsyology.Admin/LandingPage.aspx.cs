@@ -16,6 +16,7 @@ namespace Necropsyology.Admin
                 String selectedLanguage = Request.Form["ddlidioma"];
                 UICulture = selectedLanguage;
                 Culture = selectedLanguage;
+                Session["Cultura"] = selectedLanguage;
             }
             base.InitializeCulture();
         }
@@ -36,7 +37,7 @@ namespace Necropsyology.Admin
             LblAcercaDetalle.Text = Recursos.AcercaDetalle.ToString();
         }
 
-        protected void ddlidioma_SelectedIndexChanged(object sender, EventArgs e)
-        {}
+        //protected void ddlidioma_SelectedIndexChanged(object sender, EventArgs e)
+        //{}
     }
 }

@@ -50,14 +50,14 @@
             <div class="row">
                 <div class="header-logo">
                     <a class="site-logo" href="index.html">
-                        <img src="images/Logotipo/LogoNecros1.png" alt="Homepage" style="width: 100px; height: 120px" />
+                        <img src="images/Logotipo/NecroIcon.png" alt="Homepage" style="width: 100px; height: 120px" />
                     </a>
                 </div>
 
                 <nav class="header-nav-wrap">
                     <ul class="header-main-nav">
                         <li>
-                            <asp:DropDownList ID="ddlidioma" runat="server" OnSelectedIndexChanged="ddlidioma_SelectedIndexChanged" AutoPostBack="True" ForeColor="White" BackColor="#274583" Font-Bold="true" Font-Size="16px">
+                            <asp:DropDownList ID="ddlidioma" runat="server"  AutoPostBack="True" ForeColor="White" BackColor="#274583" Font-Bold="true" Font-Size="16px">
                                 <asp:ListItem Value="es-MX">Español [ Mexico ]</asp:ListItem>
                                 <asp:ListItem Value="pt-BR">Portugues [Brasil]</asp:ListItem>
                                 <asp:ListItem Value="en-US">Ingles [EEUU]</asp:ListItem>
@@ -80,7 +80,7 @@
                     </ul>
                     <ul>
                         <li><a class="smoothscroll" href="#download">
-                            <asp:LinkButton ID="LnkLogin" runat="server" BackColor="Transparent" ForeColor="Yellow" Font-Size="18px" Width="100px"></asp:LinkButton></a></li>
+                            <asp:LinkButton ID="LnkLogin" runat="server" BackColor="Transparent" ForeColor="Yellow" Font-Size="18px" Width="100px" PostBackUrl="Login.aspx"></asp:LinkButton></a></li>
                         <li><a href="#download">
                             <asp:LinkButton ID="LnkRegistro" runat="server" BackColor="Transparent" ForeColor="YellowGreen" Font-Size="18px" Width="100px"></asp:LinkButton></a></li>
                     </ul>

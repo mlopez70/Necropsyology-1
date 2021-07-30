@@ -21,11 +21,11 @@
     <!-- Bootstrap core Library -->
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
     <!-- Google font -->
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Padauk" rel="stylesheet">
     <!-- Font Awesome-->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/Login.css" rel="stylesheet" />
-     <link rel="icon" type="image/png" href="../images/Logotipo/favicon.png" />
+    <link rel="icon" type="image/png" href="../images/Logotipo/favicon.png" />
 
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -37,38 +37,69 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-offset-5 col-md-4 text-center">
-                    <h1 class='text-dark'>Control de Acceso</h1>
-                    <div class="form-login">
-                        <br/>
-               
-                    <h4>Acceso Seguro</h4>
-                        <br/>
-               
-                    <input type="text" id="userName" class="form-control input-sm chat-input" placeholder="Usuario" />
-                        <br/>
-                    <br/>
 
-                    <asp:TextBox ID="TxtPass" TextMode="Password" class="form-control input-sm chat-input" placeholder="Contraseña" runat="server"></asp:TextBox>
-                        <br/><br/>
-               
-                    <div class="wrapper">
-                        <span class="group-btn">
-                            <a href="#" class="btn btn-danger btn-md">Ingreso <i class="fa fa-sign-in"></i></a>
-                        </span>
-                    </div>
+                    <asp:ValidationSummary
+                        ID="ValSum"
+                        DisplayMode="BulletList"
+                        runat="server"
+                        HeaderText="You must enter a value in the following fields:"
+                        Font-Names="verdana"
+                        Font-Size="12" />
+
+                    <h1 class='text-dark'>
+                        <asp:Label ID="LblCtrlAcceso" runat="server" Text=""></asp:Label>
+                    </h1>
+                    <div class="form-login">
+                        <br />
+
+                        <h4>
+                            <asp:Label ID="LblAccSeguro" runat="server" Text=""></asp:Label></h4>
+                        <br />
+                        <asp:TextBox ID="TxtUsuario" runat="server" class="form-control input-sm chat-input"></asp:TextBox>
+                        <asp:RequiredFieldValidator
+                            ID="RFVUser"
+                            ControlToValidate="TxtUsuario"
+                            ErrorMessage="Card Type. "
+                            Display="Static"
+                            InitialValue="" Width="100%" runat="server">
+                            *
+                        </asp:RequiredFieldValidator>
+
+
+                        <br />
+                        <br />
+
+                        <asp:TextBox ID="TxtPass" TextMode="Password" class="form-control input-sm chat-input" runat="server"></asp:TextBox>
+                        <br />
+                        <br />
+
+                        <div class="wrapper">
+                            <span class="group-btn">
+                                <a href="#" class="btn btn-danger btn-md">Ingreso <i class="fa fa-sign-in"></i></a>
+                            </span>
+
+                            <span class="group-btn">
+                                <asp:Button ID="BtnCancelar" class="btn btn-danger btn-md" runat="server" />
+                                
+                            </span>
+
+                        </div>
                     </div>
                 </div>
             </div>
-            <br/>
-            <br/>
-            <br/>
+            <br />
+            <br />
+            <br />
             <!--footer-->
             <div class="footer text-dark text-center">
-                <p>
-                    © 2020
-                    <img src="images/LOGO_NECROPSYOLOGY.png" width="250px" />
-                    All rights reserved
-                </p>
+                <div class="col-md-offset-5 col-md-4 text-center">
+                    <p>
+                        <img src="images/Logotipo/NecroLargo.png" width="100%" />
+                    </p>
+                    <p>
+                        © 2020 All rights reserved
+                    </p>
+                </div>
             </div>
             <!--//footer-->
         </div>
