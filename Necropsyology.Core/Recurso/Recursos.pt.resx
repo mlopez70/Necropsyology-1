@@ -141,4 +141,10 @@
   <data name="Registro" xml:space="preserve">
     <value>inscrever-se</value>
   </data>
+  <data name="ObtenApp" xml:space="preserve">
+    <value>Obter aplicativo</value>
+  </data>
+  <data name="AcercaDetalle" xml:space="preserve">
+    <value>Simplesmente o melhor aplicativo de necropsia animal que existe.</value>
+  </data>
 </root>

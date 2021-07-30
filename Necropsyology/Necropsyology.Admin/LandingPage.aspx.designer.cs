@@ -22,6 +22,15 @@ namespace Necropsyology.Admin {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
+        /// Control ddlidioma.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlidioma;
+        
+        /// <summary>
         /// Control LblIntro.
         /// </summary>
         /// <remarks>
@@ -85,15 +94,6 @@ namespace Necropsyology.Admin {
         protected global::System.Web.UI.WebControls.LinkButton LnkRegistro;
         
         /// <summary>
-        /// Control ddlidioma.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlidioma;
-        
-        /// <summary>
         /// Control LblPromo1.
         /// </summary>
         /// <remarks>
@@ -101,5 +101,23 @@ namespace Necropsyology.Admin {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LblPromo1;
+        
+        /// <summary>
+        /// Control LblGetApp.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblGetApp;
+        
+        /// <summary>
+        /// Control LblAcercaDetalle.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblAcercaDetalle;
     }
 }

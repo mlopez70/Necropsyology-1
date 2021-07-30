@@ -27,3 +27,6 @@ E:\Proyectos\ReneAndCo\Necropsyology\Necropsyology.Core\obj\Release\pt-BR\Necrop
 E:\Proyectos\ReneAndCo\Necropsyology\Necropsyology.Core\obj\Release\pt\Necropsyology.Core.resources.dll
 E:\Proyectos\ReneAndCo\Necropsyology\Necropsyology.Core\obj\Release\Necropsyology.Core.dll
 E:\Proyectos\ReneAndCo\Necropsyology\Necropsyology.Core\obj\Release\Necropsyology.Core.pdb
+E:\Proyectos\ReneAndCo\Necropsyology\Necropsyology.Core\bin\Release\it\Necropsyology.Core.resources.dll
+E:\Proyectos\ReneAndCo\Necropsyology\Necropsyology.Core\obj\Release\Necropsyology.Core.Recurso.Recursos.it.resources
+E:\Proyectos\ReneAndCo\Necropsyology\Necropsyology.Core\obj\Release\it\Necropsyology.Core.resources.dll

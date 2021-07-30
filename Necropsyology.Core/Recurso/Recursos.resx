@@ -122,9 +122,12 @@
     <value>Sign Up</value>
   </data>
   <data name="ObtenApp" xml:space="preserve">
-    <value></value>
+    <value>Get app</value>
   </data>
   <data name="Obt" xml:space="preserve">
     <value></value>
+  </data>
+  <data name="AcercaDetalle" xml:space="preserve">
+    <value>Simply the best animal necropsy app out there.</value>
   </data>
 </root>

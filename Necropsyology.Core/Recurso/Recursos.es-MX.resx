@@ -144,4 +144,7 @@
   <data name="ObtenApp" xml:space="preserve">
     <value>Obtén aplicación </value>
   </data>
+  <data name="AcercaDetalle" xml:space="preserve">
+    <value>Simplemente la mejor aplicación de necropsia de animales que existe.</value>
+  </data>
 </root>

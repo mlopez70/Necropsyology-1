@@ -55,6 +55,7 @@
     <EmbeddedResource Include="Recurso\Recursos.es-MX.resx" />
     <EmbeddedResource Include="Recurso\Recursos.fr-FR.resx" />
     <EmbeddedResource Include="Recurso\Recursos.fr.resx" />
+    <EmbeddedResource Include="Recurso\Recursos.it.resx" />
     <EmbeddedResource Include="Recurso\Recursos.pt-BR.resx" />
     <EmbeddedResource Include="Recurso\Recursos.pt.resx" />
     <EmbeddedResource Include="Recurso\Recursos.resx">

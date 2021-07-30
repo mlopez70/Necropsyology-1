@@ -29,9 +29,7 @@
 
     <!-- favicons
     ================================================== -->
-    <%--<link rel="shortcut icon" href="images/Logotipo/favicon.ico" type="image/x-icon" />--%>
-
-    <link rel="icon" href="images/Logotipo/favicon.ico" type="image/x-icon" />
+  <link rel="icon" type="image/png" href="~/images/Logotipo/favicon.png" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -51,13 +49,22 @@
         <header class="s-header">
             <div class="row">
                 <div class="header-logo">
-                    <a class="site-logo" href="index.html" style="padding: 20px">
+                    <a class="site-logo" href="index.html">
                         <img src="images/Logotipo/LogoNecros1.png" alt="Homepage" style="width: 100px; height: 120px" />
                     </a>
                 </div>
 
                 <nav class="header-nav-wrap">
                     <ul class="header-main-nav">
+                        <li>
+                            <asp:DropDownList ID="ddlidioma" runat="server" OnSelectedIndexChanged="ddlidioma_SelectedIndexChanged" AutoPostBack="True" ForeColor="White" BackColor="#274583" Font-Bold="true" Font-Size="16px">
+                                <asp:ListItem Value="es-MX">Español [ Mexico ]</asp:ListItem>
+                                <asp:ListItem Value="pt-BR">Portugues [Brasil]</asp:ListItem>
+                                <asp:ListItem Value="en-US">Ingles [EEUU]</asp:ListItem>
+                                <asp:ListItem Value="de">Aleman</asp:ListItem>
+                                <asp:ListItem Value="fr">Frances</asp:ListItem>
+                                <asp:ListItem Value="iT">Italiano</asp:ListItem>
+                            </asp:DropDownList></li>
                         <li class="current"><a class="smoothscroll" href="#home" title="intro">
                             <asp:Label ID="LblIntro" runat="server" Text=""></asp:Label></a></li>
                         <li><a class="smoothscroll" href="#about" title="about">
@@ -69,28 +76,18 @@
                         </a></li>
                         <li><a class="smoothscroll" href="#download" title="download">
                             <asp:Label ID="LblDescarga" runat="server" Text=""></asp:Label></a></li>
-                        <li><a style="color: yellow; font-size: 20px" href="#download"></a>
-                            <asp:LinkButton ID="LnkLogin" runat="server" BackColor="Transparent" ForeColor="Yellow" Font-Size="20px"></asp:LinkButton></li>
-                        <li><a style="color: yellow; font-size: 20px" href="#download">
-                            <asp:LinkButton ID="LnkRegistro" runat="server" BackColor="Transparent" ForeColor="Yellow" Font-Size="20px"></asp:LinkButton></a></li>
-                        <li>
-                            <asp:DropDownList ID="ddlidioma" runat="server" OnSelectedIndexChanged="ddlidioma_SelectedIndexChanged" AutoPostBack="True" Style="color: lightslategray">
-                                <asp:ListItem Value="es-MX">Español [ Mexico ]</asp:ListItem>
-                                <asp:ListItem Value="pt-BR">Portugues [Brasil]</asp:ListItem>
-                                <asp:ListItem Value="en-US">Ingles [EEUU]</asp:ListItem>
-                                <asp:ListItem Value="de">Aleman</asp:ListItem>
-                                <asp:ListItem Value="fr">Frances</asp:ListItem>
-                            </asp:DropDownList></li>
-                    </ul>
-                    <%--<div class="header-cta">
-                    <a href="#download" class="btn btn--primary header-cta__btn smoothscroll">
-                        <asp:Button ID="BtnApp" runat="server" Text="" /></a>
-                </div>--%>
 
+                    </ul>
+                    <ul>
+                        <li><a class="smoothscroll" href="#download">
+                            <asp:LinkButton ID="LnkLogin" runat="server" BackColor="Transparent" ForeColor="Yellow" Font-Size="18px" Width="100px"></asp:LinkButton></a></li>
+                        <li><a href="#download">
+                            <asp:LinkButton ID="LnkRegistro" runat="server" BackColor="Transparent" ForeColor="YellowGreen" Font-Size="18px" Width="100px"></asp:LinkButton></a></li>
+                    </ul>
                 </nav>
                 <!-- end header-nav-wrap -->
 
-                
+
                 <a class="header-menu-toggle" href="#"><span>Menu</span></a>
             </div>
 
@@ -118,13 +115,16 @@
                         </h3>
 
                         <div class="home-content__btn-wrap">
-                            <a href="#download" class="btn btn--primary home-content__btn smoothscroll">Obten Aplicación</a>
+                            <a href="#download" class="btn btn--primary home-content__btn smoothscroll">
+                                <asp:Label ID="LblGetApp" runat="server" Text=""></asp:Label></a>
                         </div>
                     </div>
                     <!-- end home-content__left-->
 
                     <div class="home-content__right">
-                        <img src="images/hero-app-screens-800.png" srcset="images/hero-app-screens-800.png 1x, images/hero-app-screens-1600.png 2x">
+                        <img src="images/hero-app-screens-800.png" srcset="images/hero-app-screens-800.png 1x, images/hero-app-screens-1600.png 2x" />
+
+                        
                     </div>
                     <!-- end home-content__right -->
 
@@ -155,7 +155,8 @@
 
             <div class="row section-header has-bottom-sep" data-aos="fade-up">
                 <div class="col-full">
-                    <h1 class="display-1">Simply The Best Messaging App Out There.
+                    <h1 class="display-1">
+                        <asp:Label ID="LblAcercaDetalle" runat="server" Text=""></asp:Label>
                     </h1>
                     <p class="lead">
                         Et nihil atque ex. Reiciendis et rerum ut voluptate. Omnis molestiae nemo est. 

@@ -22,7 +22,8 @@ namespace Necropsyology.Admin
 
 
         protected void Page_Load(object sender, EventArgs e)
-        {            
+        {
+            
             LblIntro.Text = Recursos.Intro.ToString();
             LblPromo1.Text = Recursos.Promo1.ToString();
             LblAcerca.Text = Recursos.Acerca.ToString();
@@ -31,6 +32,8 @@ namespace Necropsyology.Admin
             LblPrecio.Text = Recursos.Precio.ToString();
             LnkLogin.Text = Recursos.Acceso.ToString();
             LnkRegistro.Text = Recursos.Registro.ToString();
+            LblGetApp.Text = Recursos.ObtenApp.ToString();
+            LblAcercaDetalle.Text = Recursos.AcercaDetalle.ToString();
         }
 
         protected void ddlidioma_SelectedIndexChanged(object sender, EventArgs e)

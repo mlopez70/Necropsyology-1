@@ -27,3 +27,6 @@ E:\Proyectos\ReneAndCo\Necropsyology\Necropsyology.Core\obj\Debug\fr\Necropsyolo
 E:\Proyectos\ReneAndCo\Necropsyology\Necropsyology.Core\bin\Debug\pt\Necropsyology.Core.resources.dll
 E:\Proyectos\ReneAndCo\Necropsyology\Necropsyology.Core\obj\Debug\Necropsyology.Core.Recurso.Recursos.pt.resources
 E:\Proyectos\ReneAndCo\Necropsyology\Necropsyology.Core\obj\Debug\pt\Necropsyology.Core.resources.dll
+E:\Proyectos\ReneAndCo\Necropsyology\Necropsyology.Core\bin\Debug\it\Necropsyology.Core.resources.dll
+E:\Proyectos\ReneAndCo\Necropsyology\Necropsyology.Core\obj\Debug\Necropsyology.Core.Recurso.Recursos.it.resources
+E:\Proyectos\ReneAndCo\Necropsyology\Necropsyology.Core\obj\Debug\it\Necropsyology.Core.resources.dll

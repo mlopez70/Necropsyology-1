@@ -79,6 +79,15 @@ namespace Necropsyology.Core.Recurso {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Simply the best animal necropsy app out there..
+        /// </summary>
+        public static string AcercaDetalle {
+            get {
+                return ResourceManager.GetString("AcercaDetalle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Download.
         /// </summary>
         public static string Descarga {
@@ -115,7 +124,7 @@ namespace Necropsyology.Core.Recurso {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a .
+        ///   Busca una cadena traducida similar a Get app.
         /// </summary>
         public static string ObtenApp {
             get {

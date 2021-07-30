@@ -141,4 +141,10 @@
   <data name="Registro" xml:space="preserve">
     <value>Registrieren</value>
   </data>
+  <data name="ObtenApp" xml:space="preserve">
+    <value>App herunterladen</value>
+  </data>
+  <data name="AcercaDetalle" xml:space="preserve">
+    <value>Einfach die beste Tierautopsie-App, die es gibt.</value>
+  </data>
 </root>
