@@ -7,6 +7,6 @@ namespace Necropsyology.Admin.CoreWEB
 {
     public static  class CoreWEB
     {
-       
+      
     }
 }

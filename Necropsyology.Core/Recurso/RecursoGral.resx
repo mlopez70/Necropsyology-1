@@ -103,4 +103,16 @@
   <data name="SumarioError" xml:space="preserve">
     <value>List Errors</value>
   </data>
+  <data name="UsuarioReq" xml:space="preserve">
+    <value>Enter the user's email</value>
+  </data>
+  <data name="PassReq" xml:space="preserve">
+    <value>Enter the user's password</value>
+  </data>
+  <data name="CorreoNoValido" xml:space="preserve">
+    <value>Invalid email address</value>
+  </data>
+  <data name="MensajeEspera" xml:space="preserve">
+    <value>Please wait</value>
+  </data>
 </root>

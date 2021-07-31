@@ -61,6 +61,24 @@ namespace Necropsyology.Core.Recurso {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Cancel.
+        /// </summary>
+        public static string BTnCancelar {
+            get {
+                return ResourceManager.GetString("BTnCancelar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Login.
+        /// </summary>
+        public static string BtnLogin {
+            get {
+                return ResourceManager.GetString("BtnLogin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Secure access.
         /// </summary>
         public static string LblAccSeguro {

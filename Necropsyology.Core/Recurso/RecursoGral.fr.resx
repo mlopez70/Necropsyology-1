@@ -123,4 +123,16 @@
   <data name="SumarioError" xml:space="preserve">
     <value>Liste des erreurs</value>
   </data>
+  <data name="UsuarioReq" xml:space="preserve">
+    <value>Sur l'écran &lt;span style="font-weight: bold;"&gt;Configurer votre messagerie&lt;/span&gt;, entrez l’adresse e-mail de l’utilisateur, puis sélectionnez &lt;span style="font-weight: bold;"&gt;Continuer&lt;/span&gt;.</value>
+  </data>
+  <data name="PassReq" xml:space="preserve">
+    <value>Entrez le mot de passe utilisateur pour vous connecter au serveur FTP</value>
+  </data>
+  <data name="CorreoNoValido" xml:space="preserve">
+    <value>Adresse e-mail non valide</value>
+  </data>
+  <data name="MensajeEspera" xml:space="preserve">
+    <value>Merci de patienter</value>
+  </data>
 </root>

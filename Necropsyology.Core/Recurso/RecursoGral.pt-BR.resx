@@ -123,4 +123,16 @@
   <data name="SumarioError" xml:space="preserve">
     <value>Listar erros</value>
   </data>
+  <data name="UsuarioReq" xml:space="preserve">
+    <value>Na tela &lt;span style="font-weight: bold;"&gt;Configurar Seu Email&lt;/span&gt;, insira o endereço de email do usuário e, em seguida, selecione &lt;span style="font-weight: bold;"&gt;Continuar&lt;/span&gt;.</value>
+  </data>
+  <data name="PassReq" xml:space="preserve">
+    <value>Digite a senha do usuário</value>
+  </data>
+  <data name="CorreoNoValido" xml:space="preserve">
+    <value>Endereço de email inválido.</value>
+  </data>
+  <data name="MensajeEspera" xml:space="preserve">
+    <value>Aguarde</value>
+  </data>
 </root>

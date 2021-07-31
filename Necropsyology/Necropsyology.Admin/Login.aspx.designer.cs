@@ -15,6 +15,15 @@ namespace Necropsyology.Admin
     {
 
         /// <summary>
+        /// Control ScriptManager1.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.ScriptManager ScriptManager1;
+
+        /// <summary>
         /// Control ValSum.
         /// </summary>
         /// <remarks>
@@ -31,6 +40,15 @@ namespace Necropsyology.Admin
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LblCtrlAcceso;
+
+        /// <summary>
+        /// Control UpdatePanel1.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.UpdatePanel UpdatePanel1;
 
         /// <summary>
         /// Control LblAccSeguro.
@@ -60,6 +78,15 @@ namespace Necropsyology.Admin
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RFVUser;
 
         /// <summary>
+        /// Control REXUser.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator REXUser;
+
+        /// <summary>
         /// Control TxtPass.
         /// </summary>
         /// <remarks>
@@ -69,6 +96,24 @@ namespace Necropsyology.Admin
         protected global::System.Web.UI.WebControls.TextBox TxtPass;
 
         /// <summary>
+        /// Control RFVPass.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RFVPass;
+
+        /// <summary>
+        /// Control BtnLogin.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BtnLogin;
+
+        /// <summary>
         /// Control BtnCancelar.
         /// </summary>
         /// <remarks>
@@ -76,5 +121,14 @@ namespace Necropsyology.Admin
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button BtnCancelar;
+
+        /// <summary>
+        /// Control UpdWaitImage.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.UpdateProgress UpdWaitImage;
     }
 }

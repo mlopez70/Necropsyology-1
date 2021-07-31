@@ -86,7 +86,6 @@
     <Content Include="css\micons\fonts\icomoon.svg" />
     <Content Include="css\micons\micons.css" />
     <Content Include="css\vendor.css" />
-    <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="images\app-screen-1400.png" />
     <Content Include="images\app-screen-2800.png" />
@@ -102,11 +101,15 @@
     <Content Include="images\hero-app-screens-1600.png" />
     <Content Include="images\hero-app-screens-800.png" />
     <Content Include="images\hero-bg.jpg" />
+    <Content Include="images\icons\AGap.gif" />
     <Content Include="images\icons\icon-arrow-down.svg" />
     <Content Include="images\icons\icon-arrow-up.svg" />
     <Content Include="images\icons\icon-mail.svg" />
     <Content Include="images\icons\icon-play-black.svg" />
     <Content Include="images\icons\icon-play.svg" />
+    <Content Include="images\icons\loading-animation.gif" />
+    <Content Include="images\icons\loading-icon.jpg" />
+    <Content Include="images\icons\loading.gif" />
     <Content Include="images\logo.svg" />
     <Content Include="images\Logotipo\FAVICON.png" />
     <Content Include="images\Logotipo\NecroLogo.png" />
@@ -154,6 +157,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\font-awesome\webfonts\fa-brands-400.eot" />
@@ -173,6 +181,10 @@
     <Content Include="css\micons\fonts\icomoon.woff" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\NecropsyologyAdmin - Web Deploy.pubxml" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -188,6 +200,10 @@
     <ProjectReference Include="..\..\Necropsyology.Core\Necropsyology.Core.csproj">
       <Project>{e27ea605-111a-4049-ab2a-b3b6b2a66590}</Project>
       <Name>Necropsyology.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Necropsyology.Datos\Necropsyology.Datos.csproj">
+      <Project>{4436B7F8-9B8C-4568-B279-161D4745CB15}</Project>
+      <Name>Necropsyology.Datos</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

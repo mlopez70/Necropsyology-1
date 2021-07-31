@@ -70,11 +70,47 @@ namespace Necropsyology.Core.Recurso {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Invalid email address.
+        /// </summary>
+        public static string CorreoNoValido {
+            get {
+                return ResourceManager.GetString("CorreoNoValido", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Please wait.
+        /// </summary>
+        public static string MensajeEspera {
+            get {
+                return ResourceManager.GetString("MensajeEspera", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Enter the user&apos;s password.
+        /// </summary>
+        public static string PassReq {
+            get {
+                return ResourceManager.GetString("PassReq", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a List Errors.
         /// </summary>
         public static string SumarioError {
             get {
                 return ResourceManager.GetString("SumarioError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Enter the user&apos;s email.
+        /// </summary>
+        public static string UsuarioReq {
+            get {
+                return ResourceManager.GetString("UsuarioReq", resourceCulture);
             }
         }
     }

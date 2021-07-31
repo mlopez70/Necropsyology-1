@@ -123,4 +123,16 @@
   <data name="SumarioError" xml:space="preserve">
     <value>"Questa impostazione controlla la segnalazione degli errori generati dalle applicazioni quando la funzione di segnalazione degli errori è attivata.\n\nL'elenco a discesa "Predefiniti" consente di scegliere se segnalare o non segnalare tutti gli errori di applicazione o nessun errore di applicazione per impostazione predefinita.\n\nPer creare l'elenco delle applicazioni di cui verranno segnalati gli errori, fare clic sul pulsante "Mostra" accanto a "Segnala errori delle applicazioni nel seguente elenco" e modificare l'elenco dei nomi di file di applicazione (esempio: notepad.exe). Gli errori generati dalle applicazioni incluse nell'elenco verranno segnalati, anche nel caso in cui l'elenco a discesa predefinito sia impostato in modo da non segnalare gli errori di applicazione. È possibile utilizzare le caselle di controllo "Segnala tutti gli errori di applicazioni Microsoft" e "Segnala tutti gli errori di componenti Windows" per aggiungere in modo implicito le applicazioni di tali categorie all'elenco. Tenere presente che la categoria "applicazioni Microsoft" comprende la categoria "componenti Windows".\n\nPer creare un elenco di applicazioni che verranno escluse dalla segnalazione degli errori, fare clic sul pulsante "Mostra" accanto a "Escludi errori delle applicazioni nell'elenco". Gli errori generati dalle applicazioni incluse in questo elenco non verranno mai segnalati, anche se l'impostazione predefinita prevede la segnalazione di tutti gli errori di applicazione.\n\nL'elenco delle applicazioni da escludere ha priorità maggiore rispetto all'elenco delle applicazioni da includere, per cui un'applicazione presente in entrambi gli elenchi verrà esclusa. È possibile utilizzare l'elenco delle applicazioni da escludere anche per escludere applicazioni Microsoft o componenti Windows se tali categorie sono state incluse in modo implicito nell'elenco delle applicazioni da includere mediante le due caselle di controllo.\n\nSe si disattiva o non si configura questa impostazione, l'utente potrà definire questa impostazione mediante il Pannello di controllo, che per impostazione predefinita è impostato in modo da caricare i dati da tutte le applicazioni."</value>
   </data>
+  <data name="UsuarioReq" xml:space="preserve">
+    <value>Nella schermata &lt;span style="font-weight: bold;"&gt;Configura l'indirizzo di posta elettronica&lt;/span&gt;, immettere l'indirizzo di posta elettronica dell'utente, quindi selezionare &lt;span style="font-weight: bold;"&gt;Continua&lt;/span&gt;.</value>
+  </data>
+  <data name="PassReq" xml:space="preserve">
+    <value>Immettere la password per accedere al server FTP</value>
+  </data>
+  <data name="CorreoNoValido" xml:space="preserve">
+    <value>*Indirizzo di posta elettronica non valido</value>
+  </data>
+  <data name="MensajeEspera" xml:space="preserve">
+    <value>Attendere</value>
+  </data>
 </root>

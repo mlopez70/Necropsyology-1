@@ -123,4 +123,16 @@
   <data name="SumarioError" xml:space="preserve">
     <value>Listado Error</value>
   </data>
+  <data name="UsuarioReq" xml:space="preserve">
+    <value>Indique el correo electrónico del usuario</value>
+  </data>
+  <data name="PassReq" xml:space="preserve">
+    <value>Indique la contraseña del usuario</value>
+  </data>
+  <data name="CorreoNoValido" xml:space="preserve">
+    <value>Dirección de correo no válida</value>
+  </data>
+  <data name="MensajeEspera" xml:space="preserve">
+    <value>Espera</value>
+  </data>
 </root>

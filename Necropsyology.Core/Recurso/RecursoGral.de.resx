@@ -123,4 +123,16 @@
   <data name="SumarioError" xml:space="preserve">
     <value>Fehler aufführen</value>
   </data>
+  <data name="UsuarioReq" xml:space="preserve">
+    <value>Geben Sie im Bildschirm &lt;span style="font-weight: bold;"&gt;Ihre E-Mail einrichten&lt;/span&gt; die E-Mail-Adresse des Benutzers ein, und wählen Sie dann &lt;span style="font-weight: bold;"&gt;Weiter&lt;/span&gt; aus.</value>
+  </data>
+  <data name="PassReq" xml:space="preserve">
+    <value>Geben Sie das Benutzerkennwort ein, um sich am FTP-Server anzumelden.</value>
+  </data>
+  <data name="CorreoNoValido" xml:space="preserve">
+    <value>Ungültige E-Mail-Adresse.</value>
+  </data>
+  <data name="MensajeEspera" xml:space="preserve">
+    <value>Bitte warten</value>
+  </data>
 </root>

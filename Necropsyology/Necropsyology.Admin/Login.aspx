@@ -33,6 +33,7 @@
 </head>
 <body>
     <form runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
         <!-- Page Content -->
         <div class="container">
             <div class="row">
@@ -42,49 +43,65 @@
                         ID="ValSum"
                         DisplayMode="BulletList"
                         runat="server"
-                        HeaderText="You must enter a value in the following fields:"
-                        Font-Names="verdana"
-                        Font-Size="12" />
+                        BorderColor="Red" BackColor="Transparent" ForeColor="Red" Font-Size="12" />
 
                     <h1 class='text-dark'>
                         <asp:Label ID="LblCtrlAcceso" runat="server" Text=""></asp:Label>
                     </h1>
-                    <div class="form-login">
-                        <br />
-
-                        <h4>
-                            <asp:Label ID="LblAccSeguro" runat="server" Text=""></asp:Label></h4>
-                        <br />
-                        <asp:TextBox ID="TxtUsuario" runat="server" class="form-control input-sm chat-input"></asp:TextBox>
-                        <asp:RequiredFieldValidator
-                            ID="RFVUser"
-                            ControlToValidate="TxtUsuario"
-                            ErrorMessage="Card Type. "
-                            Display="Static"
-                            InitialValue="" Width="100%" runat="server">
+                    <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                        <ContentTemplate>
+                            <div class="form-login">
+                                <br />
+                                <h4>
+                                    <asp:Label ID="LblAccSeguro" runat="server" Text=""></asp:Label></h4>
+                                <br />
+                                <asp:TextBox ID="TxtUsuario" runat="server" class="form-control input-sm chat-input"></asp:TextBox>
+                                <asp:RequiredFieldValidator
+                                    ID="RFVUser"
+                                    ControlToValidate="TxtUsuario"
+                                    ErrorMessage="Card Type. "
+                                    Display="Static"
+                                    InitialValue="" Width="100%" runat="server">
                             *
-                        </asp:RequiredFieldValidator>
+                                </asp:RequiredFieldValidator>
+                                <asp:RegularExpressionValidator
+                                    ID="REXUser"
+                                    CssClass="btn-danger"
+                                    runat="server"
+                                    ErrorMessage="*"
+                                    ValidationExpression="^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$"
+                                    ControlToValidate="TxtUsuario"></asp:RegularExpressionValidator>
+                                <br />
+                                <br />
+                                <asp:TextBox ID="TxtPass" TextMode="Password" class="form-control input-sm chat-input" runat="server"></asp:TextBox>
+                                <asp:RequiredFieldValidator
+                                    ID="RFVPass"
+                                    ControlToValidate="TxtPass"
+                                    ErrorMessage="Card Type. "
+                                    Display="Static"
+                                    InitialValue="" Width="100%" runat="server">
+                            *
+                                </asp:RequiredFieldValidator>
 
-
-                        <br />
-                        <br />
-
-                        <asp:TextBox ID="TxtPass" TextMode="Password" class="form-control input-sm chat-input" runat="server"></asp:TextBox>
-                        <br />
-                        <br />
-
-                        <div class="wrapper">
-                            <span class="group-btn">
-                                <a href="#" class="btn btn-danger btn-md">Ingreso <i class="fa fa-sign-in"></i></a>
-                            </span>
-
-                            <span class="group-btn">
-                                <asp:Button ID="BtnCancelar" class="btn btn-danger btn-md" runat="server" />
-                                
-                            </span>
-
-                        </div>
-                    </div>
+                                <br />
+                                <br />
+                                <div class="wrapper">
+                                    <span class="group-btn">
+                                        <asp:Button ID="BtnLogin" runat="server" class="btn btn-success btn-md" OnClick="BtnLogin_Click" />
+                                    </span>
+                                    <span class="group-btn">
+                                        <asp:Button ID="BtnCancelar" class="btn btn-danger btn-md" runat="server" CausesValidation="False" OnClick="BtnCancelar_Click" />
+                                    </span>
+                                </div>
+                            </div>
+                            <asp:UpdateProgress ID="UpdWaitImage" runat="server" DynamicLayout="true" AssociatedUpdatePanelID="UpdatePanel1">
+                                <ProgressTemplate>
+                                    <asp:Image ID="imgProgress" ImageUrl="~/images/icons/loading-icon.jpg" runat="server" Height="100px" Width="100px" BackColor="Transparent" />                                    
+                                </ProgressTemplate>
+                            </asp:UpdateProgress>
+                        </ContentTemplate>
+                      
+                    </asp:UpdatePanel>
                 </div>
             </div>
             <br />

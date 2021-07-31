@@ -129,4 +129,10 @@
   <data name="PHolderTxtContra" xml:space="preserve">
     <value>&amp;Password:</value>
   </data>
+  <data name="BTnCancelar" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="BtnLogin" xml:space="preserve">
+    <value>Accesso</value>
+  </data>
 </root>
