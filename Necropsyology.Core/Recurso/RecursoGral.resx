@@ -115,4 +115,7 @@
   <data name="MensajeEspera" xml:space="preserve">
     <value>Please wait</value>
   </data>
+  <data name="UserNoExiste" xml:space="preserve">
+    <value>wrong username or password</value>
+  </data>
 </root>

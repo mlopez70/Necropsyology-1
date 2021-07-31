@@ -3,6 +3,7 @@ using NecropsyOlogy.Datos.Models;
 using System;
 using System.Configuration;
 using System.Threading;
+using System.Web.UI;
 
 namespace Necropsyology.Admin
 {
@@ -36,7 +37,7 @@ namespace Necropsyology.Admin
             BtnLogin.Text = RecursoLogin.BtnLogin.ToString();
             BtnCancelar.Text = RecursoLogin.BTnCancelar.ToString();
             RFVPass.ErrorMessage = RecursoGral.PassReq.ToString();
-            REXUser.ErrorMessage = RecursoGral.CorreoNoValido.ToString();            
+            REXUser.ErrorMessage = RecursoGral.CorreoNoValido.ToString();
         }
 
         protected void BtnCancelar_Click(object sender, EventArgs e)
@@ -49,8 +50,8 @@ namespace Necropsyology.Admin
             BtnLogin.Visible = false;
             try
             {
-               
-                //Thread.Sleep(20000);
+
+                Thread.Sleep(2000);
                 Usuario oUser = new Usuario
                 {
                     Conexion = ConfigurationManager.ConnectionStrings["DefaultConnection"].ToString(),
@@ -59,17 +60,42 @@ namespace Necropsyology.Admin
                     Password = TxtPass.Text,
 
                 };
-                if(oUser.Login())
+                if (oUser.Login())
                 {
 
                 }
-              
+                else
+                    Error(RecursoGral.UserNoExiste.ToString());
+
             }
-            catch(Exception Ex)
+            catch (Exception Ex)
             {
                 String Sdat = string.Empty;
             }
             BtnLogin.Visible = true;
+        }
+
+        private void Mensaje(String Mensaje)
+        {
+            lblModalBody.Text = Mensaje;
+            ScriptManager.RegisterStartupScript(Page, Page.GetType(), "myModal", "$('#myModal').modal();", true);
+            upModal.Update();
+        }
+
+
+        private void Aviso(String Mensaje)
+        {
+            LblAviso.Text = Mensaje;
+            ScriptManager.RegisterStartupScript(Page, Page.GetType(), "MyMensaje", "$('#MyMensaje').modal();", true);
+            upModal1.Update();
+        }
+
+
+        private void Error(String Mensaje)
+        {
+            LblEror.Text = Mensaje;
+            ScriptManager.RegisterStartupScript(Page, Page.GetType(), "myError", "$('#myError').modal();", true);
+            UPError.Update();
         }
     }
 }

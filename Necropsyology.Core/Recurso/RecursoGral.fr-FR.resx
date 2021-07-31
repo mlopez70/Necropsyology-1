@@ -135,4 +135,7 @@
   <data name="MensajeEspera" xml:space="preserve">
     <value>Merci de patienter</value>
   </data>
+  <data name="UserNoExiste" xml:space="preserve">
+    <value>Le nom d’utilisateur ou le mot de passe est erroné</value>
+  </data>
 </root>

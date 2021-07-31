@@ -106,6 +106,15 @@ namespace Necropsyology.Core.Recurso {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a wrong username or password.
+        /// </summary>
+        public static string UserNoExiste {
+            get {
+                return ResourceManager.GetString("UserNoExiste", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Enter the user&apos;s email.
         /// </summary>
         public static string UsuarioReq {
