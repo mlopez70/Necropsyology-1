@@ -13,7 +13,7 @@ namespace Necropsyology
         public MainPage()
         {
             InitializeComponent();
-            System.Globalization.CultureInfo infCul = new System.Globalization.CultureInfo("pt");
+            System.Globalization.CultureInfo infCul = new System.Globalization.CultureInfo("es-MX");
             Thread.CurrentThread.CurrentCulture = infCul;
             Thread.CurrentThread.CurrentUICulture = infCul;
 

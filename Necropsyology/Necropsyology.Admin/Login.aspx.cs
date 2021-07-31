@@ -61,16 +61,14 @@ namespace Necropsyology.Admin
 
                 };
                 if (oUser.Login())
-                {
-
-                }
+                    Response.Redirect("Inicial.aspx");
                 else
                     Error(RecursoGral.UserNoExiste.ToString());
 
             }
             catch (Exception Ex)
             {
-                String Sdat = string.Empty;
+                
             }
             BtnLogin.Visible = true;
         }

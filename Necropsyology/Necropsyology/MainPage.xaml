@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="Necropsyology.MainPage">
 
-    <StackLayout>
+    <StackLayout BackgroundColor="Blue">
         <!-- Place new controls here -->
         <Label x:Name="LblInicio" Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
