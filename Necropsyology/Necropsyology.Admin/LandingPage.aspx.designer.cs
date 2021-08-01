@@ -7,11 +7,13 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace Necropsyology.Admin {
-    
-    
-    public partial class LandingPage {
-        
+namespace Necropsyology.Admin
+{
+
+
+    public partial class LandingPage
+    {
+
         /// <summary>
         /// Control form1.
         /// </summary>
@@ -20,7 +22,7 @@ namespace Necropsyology.Admin {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
+
         /// <summary>
         /// Control ddlidioma.
         /// </summary>
@@ -29,7 +31,7 @@ namespace Necropsyology.Admin {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlidioma;
-        
+
         /// <summary>
         /// Control LblIntro.
         /// </summary>
@@ -38,7 +40,7 @@ namespace Necropsyology.Admin {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LblIntro;
-        
+
         /// <summary>
         /// Control LblAcerca.
         /// </summary>
@@ -47,7 +49,7 @@ namespace Necropsyology.Admin {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LblAcerca;
-        
+
         /// <summary>
         /// Control LblMejoras.
         /// </summary>
@@ -56,7 +58,7 @@ namespace Necropsyology.Admin {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LblMejoras;
-        
+
         /// <summary>
         /// Control LblPrecio.
         /// </summary>
@@ -65,7 +67,7 @@ namespace Necropsyology.Admin {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LblPrecio;
-        
+
         /// <summary>
         /// Control LblDescarga.
         /// </summary>
@@ -74,7 +76,7 @@ namespace Necropsyology.Admin {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LblDescarga;
-        
+
         /// <summary>
         /// Control LnkLogin.
         /// </summary>
@@ -83,7 +85,7 @@ namespace Necropsyology.Admin {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LnkLogin;
-        
+
         /// <summary>
         /// Control LnkRegistro.
         /// </summary>
@@ -92,7 +94,7 @@ namespace Necropsyology.Admin {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LnkRegistro;
-        
+
         /// <summary>
         /// Control LblPromo1.
         /// </summary>
@@ -101,7 +103,7 @@ namespace Necropsyology.Admin {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LblPromo1;
-        
+
         /// <summary>
         /// Control LblGetApp.
         /// </summary>
@@ -110,7 +112,7 @@ namespace Necropsyology.Admin {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LblGetApp;
-        
+
         /// <summary>
         /// Control LblAcercaDetalle.
         /// </summary>
@@ -119,5 +121,14 @@ namespace Necropsyology.Admin {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LblAcercaDetalle;
+
+        /// <summary>
+        /// Control LblAbout.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblAbout;
     }
 }

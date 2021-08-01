@@ -61,7 +61,10 @@ namespace Necropsyology.Admin
 
                 };
                 if (oUser.Login())
+                {
+                    Session["Usuario"] = oUser;
                     Response.Redirect("Inicial.aspx");
+                }
                 else
                     Error(RecursoGral.UserNoExiste.ToString());
 

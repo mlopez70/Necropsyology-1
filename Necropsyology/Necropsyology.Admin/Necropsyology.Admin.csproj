@@ -1680,6 +1680,7 @@
     <Content Include="js\plugins.js" />
     <Content Include="LandingPage.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="PruebaImagen.aspx" />
     <Content Include="readme.txt" />
     <Content Include="styles.html" />
     <Content Include="Web.config" />
@@ -1727,6 +1728,13 @@
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="PruebaImagen.aspx.cs">
+      <DependentUpon>PruebaImagen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PruebaImagen.aspx.designer.cs">
+      <DependentUpon>PruebaImagen.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

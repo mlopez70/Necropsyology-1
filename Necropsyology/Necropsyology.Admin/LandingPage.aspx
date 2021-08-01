@@ -633,7 +633,7 @@
 
                 <div class="footer__about col-five tab-full left">
 
-                    <h4>About Kairos.</h4>
+                    <h4> <asp:Label ID="LblAbout" runat="server" Text="Label"></asp:Label></h4>
 
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed 
@@ -676,7 +676,7 @@
                             <p>
                                 Need help or have a question? Contact us at:
                                 <br>
-                                <a href="mailto:#0" class="footer__mail-link">support@kairos.com</a>
+                                <a href="mailto:#0" class="footer__mail-link">sistemas@reneandco.com</a>
                             </p>
                         </div>
 
@@ -684,7 +684,8 @@
                 </div>
 
                 <div class="col-full ss-copyright">
-                    <span>&copy; Copyright Kairos 2018</span>
+                    <span>&copy; Copyright Necropsyology 2020</span>
+                    <img src="images/Logotipo/necrolargo.png" width="150px" />
                     <span>Design by <a href="https://www.styleshout.com/">styleshout</a></span>
                 </div>
 
