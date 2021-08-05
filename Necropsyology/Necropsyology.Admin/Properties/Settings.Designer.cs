@@ -25,10 +25,19 @@ namespace Necropsyology.Admin.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("DTfhEQJODeiNP0d1rjE/3Y6bKTcornIs")]
         public string CadenaPri {
             get {
                 return ((string)(this["CadenaPri"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("~/NecrosImg")]
+        public string CarTrabajoNecros {
+            get {
+                return ((string)(this["CarTrabajoNecros"]));
             }
         }
     }

@@ -3,7 +3,10 @@
   <Profiles />
   <Settings>
     <Setting Name="CadenaPri" Type="System.String" Scope="Application">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">DTfhEQJODeiNP0d1rjE/3Y6bKTcornIs</Value>
+    </Setting>
+    <Setting Name="CarTrabajoNecros" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">~/NecrosImg</Value>
     </Setting>
   </Settings>
 </SettingsFile>
