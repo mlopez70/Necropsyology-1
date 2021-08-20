@@ -1631,11 +1631,14 @@
     <Content Include="css\font-awesome\webfonts\fa-brands-400.svg" />
     <Content Include="css\font-awesome\webfonts\fa-regular-400.svg" />
     <Content Include="css\font-awesome\webfonts\fa-solid-900.svg" />
+    <Content Include="css\GaleriaImagen.css" />
     <Content Include="css\Login.css" />
     <Content Include="css\main.css" />
     <Content Include="css\micons\fonts\icomoon.svg" />
     <Content Include="css\micons\micons.css" />
     <Content Include="css\vendor.css" />
+    <Content Include="Ctrls\Imagenes.ascx" />
+    <Content Include="Ctrls\Pulmon.ascx" />
     <Content Include="Global.asax" />
     <Content Include="images\app-screen-1400.png" />
     <Content Include="images\app-screen-2800.png" />
@@ -1667,6 +1670,7 @@
     <Content Include="images\Logotipo\NecroIcon.png" />
     <Content Include="images\Logotipo\NecroSBlanco.png" />
     <Content Include="images\sample-image.jpg" />
+    <Content Include="images\Trabajo\Pulmones.png" />
     <Content Include="images\video-bg-2400.jpg" />
     <Content Include="images\wheel-1000.jpg" />
     <Content Include="images\wheel-2000.jpg" />
@@ -1687,6 +1691,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CoreWEB\CoreWEB.cs" />
+    <Compile Include="Ctrls\Imagenes.ascx.cs">
+      <DependentUpon>Imagenes.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ctrls\Imagenes.ascx.designer.cs">
+      <DependentUpon>Imagenes.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Ctrls\Pulmon.ascx.cs">
+      <DependentUpon>Pulmon.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ctrls\Pulmon.ascx.designer.cs">
+      <DependentUpon>Pulmon.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -2007,6 +2025,8 @@
     <Content Include="assets\vendor\style-switcher\less\skin.less" />
     <Content Include="assets\vendor\style-switcher\less\variables.less" />
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\FTPProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\FTPProfile1.pubxml" />
     <None Include="Properties\PublishProfiles\NecropsyologyAdmin - Web Deploy.pubxml" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

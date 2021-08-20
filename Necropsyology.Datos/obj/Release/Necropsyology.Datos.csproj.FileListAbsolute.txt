@@ -1,0 +1,17 @@
+C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Datos\bin\Release\Necropsyology.Datos.dll
+C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Datos\bin\Release\Necropsyology.Datos.pdb
+C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Datos\bin\Release\Necropsyology.Core.dll
+C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Datos\bin\Release\Necropsyology.Core.pdb
+C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Datos\bin\Release\de\Necropsyology.Core.resources.dll
+C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Datos\bin\Release\de-DE\Necropsyology.Core.resources.dll
+C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Datos\bin\Release\es-MX\Necropsyology.Core.resources.dll
+C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Datos\bin\Release\fr\Necropsyology.Core.resources.dll
+C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Datos\bin\Release\fr-FR\Necropsyology.Core.resources.dll
+C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Datos\bin\Release\it\Necropsyology.Core.resources.dll
+C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Datos\bin\Release\pt\Necropsyology.Core.resources.dll
+C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Datos\bin\Release\pt-BR\Necropsyology.Core.resources.dll
+C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Datos\obj\Release\Necropsyology.Datos.csproj.AssemblyReference.cache
+C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Datos\obj\Release\Necropsyology.Datos.csproj.CoreCompileInputs.cache
+C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Datos\obj\Release\Necropsyology.Datos.csproj.CopyComplete
+C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Datos\obj\Release\Necropsyology.Datos.dll
+C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Datos\obj\Release\Necropsyology.Datos.pdb
