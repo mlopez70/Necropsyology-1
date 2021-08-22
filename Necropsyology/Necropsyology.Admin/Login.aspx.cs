@@ -63,7 +63,8 @@ namespace Necropsyology.Admin
                 if (oUser.Login())
                 {
                     Session["Usuario"] = oUser;
-                    Response.Redirect("Inicial.aspx");
+                    Response.Redirect("Inicial.aspx",false);
+                    Context.ApplicationInstance.CompleteRequest();
                 }
                 else
                     Error(RecursoGral.UserNoExiste.ToString());
@@ -71,7 +72,7 @@ namespace Necropsyology.Admin
             }
             catch (Exception Ex)
             {
-                
+                throw Ex;
             }
             BtnLogin.Visible = true;
         }
