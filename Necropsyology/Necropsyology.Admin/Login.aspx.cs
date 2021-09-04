@@ -38,6 +38,7 @@ namespace Necropsyology.Admin
             BtnCancelar.Text = RecursoLogin.BTnCancelar.ToString();
             RFVPass.ErrorMessage = RecursoGral.PassReq.ToString();
             REXUser.ErrorMessage = RecursoGral.CorreoNoValido.ToString();
+            LblCRight.Text = RecursoLogin.LblCRight.ToString();
         }
 
         protected void BtnCancelar_Click(object sender, EventArgs e)
@@ -98,6 +99,12 @@ namespace Necropsyology.Admin
             LblEror.Text = Mensaje;
             ScriptManager.RegisterStartupScript(Page, Page.GetType(), "myError", "$('#myError').modal();", true);
             UPError.Update();
+        }
+
+        protected void BtnRegistro_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Registro.aspx", false);
+            Context.ApplicationInstance.CompleteRequest();
         }
     }
 }

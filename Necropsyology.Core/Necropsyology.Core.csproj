@@ -54,6 +54,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>RecursoLogin.resx</DependentUpon>
     </Compile>
+    <Compile Include="Recurso\RecursoRegistro.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RecursoRegistro.resx</DependentUpon>
+    </Compile>
     <Compile Include="Recurso\Recursos.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -85,6 +90,18 @@
     <EmbeddedResource Include="Recurso\RecursoLogin.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>RecursoLogin.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recurso\RecursoRegistro.de-DE.resx" />
+    <EmbeddedResource Include="Recurso\RecursoRegistro.de.resx" />
+    <EmbeddedResource Include="Recurso\RecursoRegistro.es-MX.resx" />
+    <EmbeddedResource Include="Recurso\RecursoRegistro.fr-FR.resx" />
+    <EmbeddedResource Include="Recurso\RecursoRegistro.fr.resx" />
+    <EmbeddedResource Include="Recurso\RecursoRegistro.it.resx" />
+    <EmbeddedResource Include="Recurso\RecursoRegistro.pt-BR.resx" />
+    <EmbeddedResource Include="Recurso\RecursoRegistro.pt.resx" />
+    <EmbeddedResource Include="Recurso\RecursoRegistro.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>RecursoRegistro.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Recurso\Recursos.de-DE.resx" />
     <EmbeddedResource Include="Recurso\Recursos.de.resx" />

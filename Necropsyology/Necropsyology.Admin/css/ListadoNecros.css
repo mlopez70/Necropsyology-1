@@ -1,0 +1,20 @@
+﻿body {
+}
+.tabla-bordes {
+    border-top-right-radius: 150px;
+    border-top-left-radius: 150px;
+    width: 100%;
+}
+.TituloListado{
+    text-align:center;
+    vertical-align:middle;
+    font:italic;
+    font-family:Calibri;
+    font-weight:bold;
+    font-size:xx-large;
+    background-color:transparent;
+    color:blue;
+}
+.RenglonBoton{
+    height:100px;
+}

@@ -1628,14 +1628,18 @@
     <Content Include="css\font-awesome\webfonts\fa-regular-400.svg" />
     <Content Include="css\font-awesome\webfonts\fa-solid-900.svg" />
     <Content Include="css\GaleriaImagen.css" />
+    <Content Include="css\ListadoNecros.css" />
     <Content Include="css\Login.css" />
     <Content Include="css\main.css" />
     <Content Include="css\micons\fonts\icomoon.svg" />
     <Content Include="css\micons\micons.css" />
     <Content Include="css\Principal.css" />
+    <Content Include="css\ReporteNecro.css" />
     <Content Include="css\vendor.css" />
     <Content Include="Ctrls\Imagenes.ascx" />
     <Content Include="Ctrls\Pulmon.ascx" />
+    <Content Include="Ctrls\ReporteNecros\Header.ascx" />
+    <Content Include="Ctrls\ReporteNecros\WebReporteMVZ.ascx" />
     <Content Include="Encrytacion.aspx" />
     <Content Include="Global.asax" />
     <Content Include="images\app-screen-1400.png" />
@@ -1680,8 +1684,12 @@
     <Content Include="js\modernizr.js" />
     <Content Include="js\pace.min.js" />
     <Content Include="js\plugins.js" />
+    <Content Include="js\summernote-bs4.min.js" />
     <Content Include="LandingPage.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="NecroBovino.aspx" />
+    <Content Include="NecroGeneral.aspx" />
+    <Content Include="Necropsias.aspx" />
     <Content Include="PruebaImagen.aspx" />
     <Content Include="readme.txt" />
     <Content Include="styles.html" />
@@ -1702,6 +1710,20 @@
     </Compile>
     <Compile Include="Ctrls\Pulmon.ascx.designer.cs">
       <DependentUpon>Pulmon.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Ctrls\ReporteNecros\Header.ascx.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ctrls\ReporteNecros\Header.ascx.designer.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Ctrls\ReporteNecros\WebReporteMVZ.ascx.cs">
+      <DependentUpon>WebReporteMVZ.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ctrls\ReporteNecros\WebReporteMVZ.ascx.designer.cs">
+      <DependentUpon>WebReporteMVZ.ascx</DependentUpon>
     </Compile>
     <Compile Include="Encrytacion.aspx.cs">
       <DependentUpon>Encrytacion.aspx</DependentUpon>
@@ -1733,6 +1755,27 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NecroBovino.aspx.cs">
+      <DependentUpon>NecroBovino.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NecroBovino.aspx.designer.cs">
+      <DependentUpon>NecroBovino.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NecroGeneral.aspx.cs">
+      <DependentUpon>NecroGeneral.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NecroGeneral.aspx.designer.cs">
+      <DependentUpon>NecroGeneral.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Necropsias.aspx.cs">
+      <DependentUpon>Necropsias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Necropsias.aspx.designer.cs">
+      <DependentUpon>Necropsias.aspx</DependentUpon>
     </Compile>
     <Compile Include="Necros.Master.cs">
       <DependentUpon>Necros.Master</DependentUpon>

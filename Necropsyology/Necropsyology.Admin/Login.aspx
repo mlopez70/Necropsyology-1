@@ -87,21 +87,20 @@
                                     ControlToValidate="TxtPass"
                                     ErrorMessage="Card Type. "
                                     Display="Static"
-                                    InitialValue="" Width="100%" runat="server">
-                            *
+                                    InitialValue="" Width="100%" runat="server">*
                                 </asp:RequiredFieldValidator>
 
                                 <br />
                                 <br />
                                 <div class="wrapper">
                                     <span class="group-btn">
-                                        <asp:Button ID="BtnLogin" runat="server" class="btn btn-success btn-md" OnClick="BtnLogin_Click" />
+                                        <asp:Button ID="BtnLogin" runat="server" class="btn btn-success btn-lg" OnClick="BtnLogin_Click" />
                                     </span>
                                      <span class="group-btn">
-                                        <asp:Button ID="BtnRegistro" class="btn btn-danger btn-md" runat="server" CausesValidation="False" Text="Registro" />
+                                        <asp:Button ID="BtnRegistro" class="btn btn-warning btn-lg" runat="server" CausesValidation="False" Text="Registro" OnClick="BtnRegistro_Click" />
                                     </span>
                                     <span class="group-btn">
-                                        <asp:Button ID="BtnCancelar" class="btn btn-danger btn-md" runat="server" CausesValidation="False" OnClick="BtnCancelar_Click" />
+                                        <asp:Button ID="BtnCancelar" class="btn btn-danger btn-lg" runat="server" CausesValidation="False" OnClick="BtnCancelar_Click" />
                                     </span>
                                 </div>
                             </div>
@@ -125,9 +124,10 @@
                         <img src="images/Logotipo/NecroLargo.png" width="100%" />
                     </p>
                     <p>
-                        © 2020 All rights reserved
+                        © 2020 <asp:Label ID="LblCRight" runat="server" Text="Etiqueta"></asp:Label>
                     </p>
                 </div>
+                
             </div>
             <!--//footer-->
         </div>

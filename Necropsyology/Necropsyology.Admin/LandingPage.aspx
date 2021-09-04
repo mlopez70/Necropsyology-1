@@ -50,7 +50,7 @@
             <div class="row">
                 <div class="header-logo">
                     <a class="site-logo" href="index.html">
-                        <img src="images/Logotipo/NecroIcon.png" alt="Homepage" style="width: 100px; height: 120px" />
+                        <img src="images/Logotipo/NecroIcon.png" alt="Homepage" style="width: 120px; height: 120px" />
                     </a>
                 </div>
 

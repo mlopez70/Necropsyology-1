@@ -80,3 +80,12 @@ C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\obj\Debug\pt-BR\Necropsyolog
 C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\obj\Debug\pt\Necropsyology.Core.resources.dll
 C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\obj\Debug\Necropsyology.Core.dll
 C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\obj\Debug\Necropsyology.Core.pdb
+C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\obj\Debug\Necropsyology.Core.Recurso.RecursoRegistro.resources
+C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\obj\Debug\Necropsyology.Core.Recurso.RecursoRegistro.de-DE.resources
+C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\obj\Debug\Necropsyology.Core.Recurso.RecursoRegistro.de.resources
+C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\obj\Debug\Necropsyology.Core.Recurso.RecursoRegistro.es-MX.resources
+C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\obj\Debug\Necropsyology.Core.Recurso.RecursoRegistro.fr-FR.resources
+C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\obj\Debug\Necropsyology.Core.Recurso.RecursoRegistro.fr.resources
+C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\obj\Debug\Necropsyology.Core.Recurso.RecursoRegistro.it.resources
+C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\obj\Debug\Necropsyology.Core.Recurso.RecursoRegistro.pt-BR.resources
+C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\obj\Debug\Necropsyology.Core.Recurso.RecursoRegistro.pt.resources

@@ -36,8 +36,5 @@ namespace Necropsyology.Admin
             LblGetApp.Text = Recursos.ObtenApp.ToString();
             LblAcercaDetalle.Text = Recursos.AcercaDetalle.ToString();
         }
-
-        //protected void ddlidioma_SelectedIndexChanged(object sender, EventArgs e)
-        //{}
     }
 }

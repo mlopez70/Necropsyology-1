@@ -135,4 +135,7 @@
   <data name="BtnLogin" xml:space="preserve">
     <value>Accesso</value>
   </data>
+  <data name="LblCRight" xml:space="preserve">
+    <value>Tutti i diritti sono riservati.</value>
+  </data>
 </root>

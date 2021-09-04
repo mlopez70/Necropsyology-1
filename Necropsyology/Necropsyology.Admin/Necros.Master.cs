@@ -14,7 +14,13 @@ namespace Necropsyology.Admin
         private void Page_Init()
         {
             oUser = (Usuario)Session["Usuario"];
-            LblNameUser.Text = oUser.Nombre;
+            if (oUser == null)
+            {
+                Response.Redirect("Login.aspx", false);
+                Context.ApplicationInstance.CompleteRequest();
+            }
+            else
+                LblNameUser.Text = oUser.Nombre;
         }
     }
 }
