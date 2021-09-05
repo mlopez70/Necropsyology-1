@@ -2,6 +2,10 @@
 
 <%@ Register Src="~/Ctrls/ReporteNecros/Header.ascx" TagPrefix="uc1" TagName="Header" %>
 <%@ Register Src="~/Ctrls/ReporteNecros/WebReporteMVZ.ascx" TagPrefix="uc1" TagName="WebReporteMVZ" %>
+<%@ Register Src="~/Ctrls/ReporteNecros/CtrlOrganizacion.ascx" TagPrefix="uc1" TagName="CtrlOrganizacion" %>
+<%@ Register Src="~/Ctrls/ReporteNecros/CtrlPaciente.ascx" TagPrefix="uc1" TagName="CtrlPaciente" %>
+
+
 
 
 
@@ -9,17 +13,32 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <%-- ReporteGEneral--%>
-    <table>
+    <table class="TablaContenedora">
         <tr>
-            <td >
+            <td colspan="3">
                 <uc1:Header runat="server" ID="Header" />
             </td>
+
+        </tr>
+        <tr class="RenglonSeparador">
+            <td></td>
         </tr>
         <tr>
-            <td style="width:50%">
+            <td class="Columna45">
                 <uc1:WebReporteMVZ runat="server" ID="WebReporteMVZ" />
             </td>
-          
+            <td class="ColumnaSeparador"></td>
+            <td class="Columna45">
+                <uc1:CtrlOrganizacion runat="server" ID="CtrlOrganizacion" />
+            </td>
+        </tr>
+        <tr class="RenglonSeparador">
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2" >
+                <uc1:CtrlPaciente runat="server" ID="CtrlPaciente" />
+            </td>
         </tr>
     </table>
 

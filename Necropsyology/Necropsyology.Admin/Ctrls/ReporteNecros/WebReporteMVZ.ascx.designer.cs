@@ -15,13 +15,13 @@ namespace Necropsyology.Admin.Ctrls.ReporteNecros
     {
 
         /// <summary>
-        /// Label1 control.
+        /// LblTitMVZ control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.Label LblTitMVZ;
 
         /// <summary>
         /// Image1 control.
@@ -33,39 +33,75 @@ namespace Necropsyology.Admin.Ctrls.ReporteNecros
         protected global::System.Web.UI.WebControls.Image Image1;
 
         /// <summary>
-        /// Label2 control.
+        /// LblEtiNomMVZ control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
+        protected global::System.Web.UI.WebControls.Label LblEtiNomMVZ;
 
         /// <summary>
-        /// Label3 control.
+        /// LblValNomMVZ control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label3;
+        protected global::System.Web.UI.WebControls.Label LblValNomMVZ;
 
         /// <summary>
-        /// Label4 control.
+        /// LblEtiEmailMVZ control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label4;
+        protected global::System.Web.UI.WebControls.Label LblEtiEmailMVZ;
 
         /// <summary>
-        /// Label5 control.
+        /// LblValEmailMVZ control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label5;
+        protected global::System.Web.UI.WebControls.Label LblValEmailMVZ;
+
+        /// <summary>
+        /// LblEtiTelMVZ control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblEtiTelMVZ;
+
+        /// <summary>
+        /// LblValTelMVZ control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblValTelMVZ;
+
+        /// <summary>
+        /// LblEtiCedMVZ control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblEtiCedMVZ;
+
+        /// <summary>
+        /// LblValCedMVZ control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblValCedMVZ;
     }
 }

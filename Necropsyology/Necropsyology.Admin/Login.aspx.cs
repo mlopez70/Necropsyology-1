@@ -1,5 +1,6 @@
-﻿using Necropsyology.Core.Recurso;
-using NecropsyOlogy.Datos.Models;
+﻿using Necropsyology.Admin.Properties;
+using Necropsyology.Core.Recurso;
+using Necropsyology.Datos.Models;
 using System;
 using System.Configuration;
 using System.Threading;
@@ -13,7 +14,7 @@ namespace Necropsyology.Admin
         {
             String selectedLanguage = String.Empty;
             if (Session["Cultura"] == null)
-                selectedLanguage = "en-US";
+                selectedLanguage = "es-MX";
             else
                 selectedLanguage = Session["Cultura"].ToString();
             UICulture = selectedLanguage;
@@ -41,10 +42,7 @@ namespace Necropsyology.Admin
             LblCRight.Text = RecursoLogin.LblCRight.ToString();
         }
 
-        protected void BtnCancelar_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("~/LandingPage.aspx");
-        }
+
 
         protected void BtnLogin_Click(object sender, EventArgs e)
         {
@@ -56,7 +54,7 @@ namespace Necropsyology.Admin
                 Usuario oUser = new Usuario
                 {
                     Conexion = ConfigurationManager.ConnectionStrings["DefaultConnection"].ToString(),
-                    ValorRef = Properties.Settings.Default.CadenaPri,
+                    ValorRef = Settings.Default.CadenaPri,
                     Email = TxtUsuario.Text,
                     Password = TxtPass.Text,
 
@@ -64,7 +62,7 @@ namespace Necropsyology.Admin
                 if (oUser.Login())
                 {
                     Session["Usuario"] = oUser;
-                    Response.Redirect("Inicial.aspx",false);
+                    Response.Redirect("Inicial.aspx", false);
                     Context.ApplicationInstance.CompleteRequest();
                 }
                 else
@@ -99,6 +97,14 @@ namespace Necropsyology.Admin
             LblEror.Text = Mensaje;
             ScriptManager.RegisterStartupScript(Page, Page.GetType(), "myError", "$('#myError').modal();", true);
             UPError.Update();
+        }
+
+     
+
+        protected void BtnCancelar_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("LandingPage.aspx",false);
+            Context.ApplicationInstance.CompleteRequest();
         }
 
         protected void BtnRegistro_Click(object sender, EventArgs e)

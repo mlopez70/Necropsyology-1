@@ -31,5 +31,23 @@ namespace Necropsyology.Admin
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::Necropsyology.Admin.Ctrls.ReporteNecros.WebReporteMVZ WebReporteMVZ;
+
+        /// <summary>
+        /// CtrlOrganizacion control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Necropsyology.Admin.Ctrls.CtrlOrganizacion CtrlOrganizacion;
+
+        /// <summary>
+        /// CtrlPaciente control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Necropsyology.Admin.Ctrls.ReporteNecros.CtrlPaciente CtrlPaciente;
     }
 }

@@ -1,8 +1,7 @@
-﻿using NecropsyOlogy.Datos;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data;
-using static NecropsyOlogy.Datos.Data;
+using static Necropsyology.Datos.Data;
 
 namespace Necropsyology.Datos.Models
 {

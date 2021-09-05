@@ -1636,8 +1636,10 @@
     <Content Include="css\Principal.css" />
     <Content Include="css\ReporteNecro.css" />
     <Content Include="css\vendor.css" />
+    <Content Include="Ctrls\ReporteNecros\CtrlOrganizacion.ascx" />
     <Content Include="Ctrls\Imagenes.ascx" />
     <Content Include="Ctrls\Pulmon.ascx" />
+    <Content Include="Ctrls\ReporteNecros\CtrlPaciente.ascx" />
     <Content Include="Ctrls\ReporteNecros\Header.ascx" />
     <Content Include="Ctrls\ReporteNecros\WebReporteMVZ.ascx" />
     <Content Include="Encrytacion.aspx" />
@@ -1697,6 +1699,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CoreWEB\CoreWEB.cs" />
+    <Compile Include="Ctrls\ReporteNecros\CtrlOrganizacion.ascx.cs">
+      <DependentUpon>CtrlOrganizacion.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ctrls\ReporteNecros\CtrlOrganizacion.ascx.designer.cs">
+      <DependentUpon>CtrlOrganizacion.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Ctrls\Imagenes.ascx.cs">
       <DependentUpon>Imagenes.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1710,6 +1719,13 @@
     </Compile>
     <Compile Include="Ctrls\Pulmon.ascx.designer.cs">
       <DependentUpon>Pulmon.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Ctrls\ReporteNecros\CtrlPaciente.ascx.cs">
+      <DependentUpon>CtrlPaciente.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ctrls\ReporteNecros\CtrlPaciente.ascx.designer.cs">
+      <DependentUpon>CtrlPaciente.ascx</DependentUpon>
     </Compile>
     <Compile Include="Ctrls\ReporteNecros\Header.ascx.cs">
       <DependentUpon>Header.ascx</DependentUpon>

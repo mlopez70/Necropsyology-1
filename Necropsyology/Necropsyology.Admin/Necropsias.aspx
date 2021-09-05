@@ -7,33 +7,27 @@
     <%--  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>--%>
     <asp:Panel ID="Panel1" runat="server" HorizontalAlign="Center" >
-        <table class="tabla-bordes">
+        <table class="TablaPrincipal">
             <tr>
                 <td colspan="3">
-                    <asp:Label ID="Label4" runat="server" Text="Listado Necropsias" CssClass="TituloListado"></asp:Label>
+                    <asp:Label ID="LblTitulo" runat="server" CssClass="TituloListado"></asp:Label>
                 </td>
             </tr>
             <tr class="RenglonBoton">
                 <td >
-                    <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/Encrytacion.aspx">                     
-                        <asp:Label ID="Label1" runat="server" Text="Neva Organizacion" CssClass="btn btn-facebook" />
-                    </asp:LinkButton>
+                    <asp:Button ID="BtnNewOrg" runat="server" CssClass="btn btn-facebook BotonBorderRedondo" />                   
                 </td>
                 <td>
-                    <asp:LinkButton ID="LinkButton2" runat="server" PostBackUrl="~/Encrytacion.aspx">
-                     <asp:Label ID="Label2" runat="server" Text="Nuevo Rep Gral" CssClass="btn btn-warning" />
-                    </asp:LinkButton>
+                   <asp:Button ID="BtnNewRepGral" runat="server" CssClass="btn btn-warning BotonBorderRedondo" />  
                 </td>
                 <td>
-                    <asp:LinkButton ID="LinkButton3" runat="server" PostBackUrl="~/Encrytacion.aspx">
-                        <asp:Label ID="Label3" runat="server" Text="Nuevo Rep Bovino" CssClass="btn btn-success" />
-                    </asp:LinkButton>
+                   <asp:Button ID="BtnNewRepBov" runat="server" CssClass="btn btn-success BotonBorderRedondo" />
                 </td>
             </tr>
             <tr>
                 <td colspan="3">
                     <asp:GridView ID="GrdNecros" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" Width="100%" Font-Size="Medium" OnPageIndexChanging="GrdNecros_PageIndexChanging" PageSize="17" CellPadding="4" ForeColor="#333333" GridLines="None" OnSelectedIndexChanged="GrdNecros_SelectedIndexChanged">
-                        <AlternatingRowStyle BackColor="Transparent" ForeColor="#284775" />
+                        <AlternatingRowStyle BackColor="LightCyan" ForeColor="#284775" />
                         <Columns>
                             <asp:BoundField DataField="Folio" HeaderText="Folio">
                                 <HeaderStyle HorizontalAlign="Center" Width="200px" />
@@ -54,9 +48,10 @@
                             <asp:TemplateField HeaderText="Acciones">
                                 <ItemTemplate>
                                     <div class="btn-group btn-group-sm">
-                                        <button class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                                        <asp:Button ID="BtnAccion" runat="server" class="btn btn-info dropdown-toggle" data-toggle="dropdown" Text="..."/>
+                                       <%-- <button class="btn btn-info dropdown-toggle" data-toggle="dropdown" >
                                             Opciones
-                                        </button>
+                                        </button>--%>
                                         <div class="dropdown-menu btn-success">
                                             <asp:LinkButton CausesValidation="false" ID="BtnEditGral" runat="server" OnClick="BtnEditGral_Click" CommandName="select" CssClass="btn btn-success" Font-Size="X-Small" Width="100%"><i class="fa fa-edit"></i> Editar reporte general</asp:LinkButton>
                                             <br />

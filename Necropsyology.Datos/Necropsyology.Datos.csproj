@@ -41,12 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Organizacion.cs" />
     <Compile Include="Core\Data.cs" />
     <Compile Include="Models\Necropsia.cs" />
     <Compile Include="Models\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Clases\" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Necropsyology.Core\Necropsyology.Core.csproj">
       <Project>{e27ea605-111a-4049-ab2a-b3b6b2a66590}</Project>

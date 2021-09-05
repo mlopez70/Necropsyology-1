@@ -1,33 +1,28 @@
-﻿body {
+﻿.TablaContenedora{
+    width:100%;
 }
-.TablaPrincipal {
-    border-radius: 20px 10px 50px 30px;
-    -webkit-border-radius: 20px 10px 50px 30px;
-    -moz-border-radius: 20px 10px 50px 30px;    
-    padding: 10px;
+
+
+.TablaPrincipal {  
     width: 100%;
     text-align: center;
     vertical-align: middle;
-}
-.HeaderTitulo {
-    color: blue;
-    background-color: transparent
-}
-.HeaderEtiqueta{
-    font-weight:bold;
-    color:black;
-    background-color:transparent;
-    font-size:medium;
-    font-family:Calibri;
-}
-.TablaMVZ {
-    border:1px none white;
-    width: 100%;   
+    /*border: 1px solid white;*/
     border-collapse: separate;
-    border: solid black 1px;
-    border-radius: 6px;
-    -moz-border-radius: 6px;
 }
+
+
+.RenglonSeparador
+{
+    height:30px;
+}
+
+
+.ColumnaSeparador{
+    width:20px;
+}
+
+
 .TituloMVZ {
     text-align:center;
     vertical-align:middle;
@@ -37,13 +32,226 @@
     font-size: medium;
     font-family: Calibri;
 }
+
+
 .Imagenes {
     text-align:center;
     vertical-align:middle;
     position: relative; 
-    width: 150px; 
-    height: auto; 
+    width: 50px; 
+    height: 150px;
     margin: 0 auto;
 }
 
 
+.LeftEtiqueta {
+    padding:10px 10px;
+    text-transform: capitalize;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: bold;
+    color: black;
+    background-color: transparent;
+    font-size: small;
+    font-family: Calibri;
+}
+
+
+.LeftValor {
+    text-transform: capitalize;
+    text-align: left;
+    vertical-align: middle;
+    color: black;
+    background-color: transparent;
+    font-size: small;
+    font-family: Calibri;
+    word-wrap:break-word;
+}
+
+
+.RightEtiqueta {
+    text-transform: capitalize;
+    text-align: right;
+    vertical-align: middle;
+    font-weight: bold;
+    color: black;
+    background-color: transparent;
+    font-size: medium;
+    font-family: Calibri;
+}
+
+
+.RightValor {
+    text-transform: capitalize;
+    text-align: right;
+    vertical-align: middle;
+    color: black;
+    background-color: transparent;
+    font-size: medium;
+    font-family: Calibri;
+}
+
+
+.CenterEtiqueta {
+    text-transform: capitalize;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    color: black;
+    background-color: transparent;
+    font-size: small;
+    font-family: Calibri;
+}
+
+
+.CenterValor {
+    text-transform: capitalize;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    background-color: transparent;
+    font-size: small;
+    font-family: Calibri;
+}
+
+
+.Columna50{
+    width:50%;
+}
+
+
+.Columna45 {
+    width: 48%;
+}
+
+
+.Columna25 {
+    width: 35%;
+}
+
+
+.Columna75 {
+    width: 65%;
+}
+
+/*----------------------------------------------------------*/
+/* Header*/
+.HeaderTitulo {
+    text-transform: capitalize;
+    color: black;
+    background-color: lightblue;
+    vertical-align: middle;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Calibri;
+    width: 100%;
+    border-radius: 20px 20px 20px 20px ;
+    -moz-border-radius: 20px 20px 20px 20px ;
+    
+/*    box-shadow: 20px 20px 50px black;
+    -moz-box-shadow: 20px 20px 50px black;
+*/}
+
+
+.HeaderEtiqueta {
+    text-transform:capitalize;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    color: black;   
+    background-color: transparent;
+    font-size: medium;
+    font-family: Calibri;
+}
+
+
+.HeaderValor {
+    text-transform: capitalize;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    background-color: transparent;
+    font-size: medium;
+    font-family: Calibri;
+}
+/*----------------------------------------------------------*/
+
+
+
+/*----------------------------------------------------------*/
+/* Seccion Datos del MVZ*/
+.TablaMVZ {
+    background-color: #DDEBF7;
+    vertical-align: middle; 
+    width: 100%;
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    box-shadow: 20px 20px 50px black;
+    -moz-box-shadow: 20px 20px 50px black;
+}
+
+
+.TituloSeccionMVZ {
+    color: white;
+    background-color: #4472C4;
+    font-size: xx-large;
+    font-family: Calibri;    
+    text-align:center;
+}
+
+
+.LogoMVZ {
+    height: 100px;
+}
+/*----------------------------------------------------------*/
+
+
+/*----------------------------------------------------------*/
+/* Seccion Datos Generales*/
+.TablaDatGral {
+    background-color: #FFF2CC;
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    box-shadow: 20px 20px 50px black;
+    -moz-box-shadow: 20px 20px 50px black;
+}
+
+
+.TituloSeccionDatGral {
+    color: black;
+    background-color: #FFC000;
+    font-size: xx-large;
+    font-family: Calibri;
+    text-transform:capitalize;
+    text-align:center;
+}
+/*----------------------------------------------------------*/
+
+/*----------------------------------------------------------*/
+/* Seccion Datos del Paciente*/
+.TablaPaciente {
+    background-color: #DDEBF7;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    margin: 5% 50%;
+    border-collapse: collapse;
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    box-shadow: 20px 20px 50px black;
+    -moz-box-shadow: 20px 20px 50px black;
+}
+
+
+.TituloSeccionPaciente {
+    color: white;
+    background-color: #4472C4;
+    font-size: xx-large;
+    font-family: Calibri;
+    border-style:inset;
+    border:"1";
+
+}
+/*----------------------------------------------------------*/

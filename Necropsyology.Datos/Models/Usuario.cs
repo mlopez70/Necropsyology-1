@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
-using static NecropsyOlogy.Datos.Data;
+using static Necropsyology.Datos.Data;
 
-namespace NecropsyOlogy.Datos.Models
+namespace Necropsyology.Datos.Models
 {
     /// <summary>
     /// Objeto que realiza las funciones del Usuario 

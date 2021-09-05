@@ -24,21 +24,39 @@ namespace Necropsyology.Admin.Ctrls.ReporteNecros
         protected global::System.Web.UI.WebControls.Label LblTitulo;
 
         /// <summary>
-        /// LblFolio control.
+        /// LblEtiFolio control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblFolio;
+        protected global::System.Web.UI.WebControls.Label LblEtiFolio;
 
         /// <summary>
-        /// LblFecha control.
+        /// LblValFolio control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblFecha;
+        protected global::System.Web.UI.WebControls.Label LblValFolio;
+
+        /// <summary>
+        /// LblEtiFecha control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblEtiFecha;
+
+        /// <summary>
+        /// LblValFecha control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblValFecha;
     }
 }
