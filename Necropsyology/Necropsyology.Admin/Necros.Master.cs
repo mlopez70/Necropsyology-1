@@ -11,7 +11,9 @@ namespace Necropsyology.Admin
 
 
         protected void Page_Load(object sender, EventArgs e)
-        { }
+        {
+            LblIdoma.Text = Session["Cultura"]!=null?Session["Cultura"].ToString():"es-MX";
+        }
 
 
         private void Page_Init()

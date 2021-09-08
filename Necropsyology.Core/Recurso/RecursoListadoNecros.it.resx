@@ -141,4 +141,10 @@
   <data name="BtnAccion" xml:space="preserve">
     <value>Scelte</value>
   </data>
+  <data name="BtnNRepBov" xml:space="preserve">
+    <value>Crea report bovino</value>
+  </data>
+  <data name="HColDiagnostico" xml:space="preserve">
+    <value>Diagnosi</value>
+  </data>
 </root>

@@ -10,7 +10,7 @@
         </td>
     </tr>
     <tr>
-        <td rowspan="2" >
+        <td rowspan="2">
             <asp:Image ID="Image1" runat="server" ImageUrl="~/images/avatars/user-03.jpg" CssClass="LogoMVZ" />
         </td>
         <td>
@@ -22,7 +22,7 @@
             <asp:Label ID="LblEtiEmailMVZ" runat="server" CssClass="CenterEtiqueta"></asp:Label>
             <br />
             <asp:Label ID="LblValEmailMVZ" runat="server" CssClass="CenterValor"></asp:Label>
-            </td>
+        </td>
     </tr>
     <tr>
         <td>
@@ -34,7 +34,10 @@
             <asp:Label ID="LblEtiCedMVZ" runat="server" CssClass="CenterEtiqueta"></asp:Label>
             <br />
             <asp:Label ID="LblValCedMVZ" runat="server" CssClass="CenterValor"></asp:Label>
-            </td>
+        </td>
+    </tr>
+    <tr class="RenglonSeparador">
+        <td></td>
     </tr>
 </table>
 

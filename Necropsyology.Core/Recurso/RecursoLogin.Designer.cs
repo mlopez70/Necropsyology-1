@@ -63,9 +63,9 @@ namespace Necropsyology.Core.Recurso {
         /// <summary>
         ///   Looks up a localized string similar to Cancel.
         /// </summary>
-        public static string BTnCancelar {
+        public static string BtnCancelar {
             get {
-                return ResourceManager.GetString("BTnCancelar", resourceCulture);
+                return ResourceManager.GetString("BtnCancelar", resourceCulture);
             }
         }
         
@@ -75,6 +75,15 @@ namespace Necropsyology.Core.Recurso {
         public static string BtnLogin {
             get {
                 return ResourceManager.GetString("BtnLogin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Record.
+        /// </summary>
+        public static string BtnRegistro {
+            get {
+                return ResourceManager.GetString("BtnRegistro", resourceCulture);
             }
         }
         

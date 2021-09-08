@@ -107,3 +107,5 @@ C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\obj\Release\Necropsyology.Co
 C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\obj\Release\Necropsyology.Core.Recurso.RecursoNecropsia.it.resources
 C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\obj\Release\Necropsyology.Core.Recurso.RecursoNecropsia.pt-BR.resources
 C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\obj\Release\Necropsyology.Core.Recurso.RecursoNecropsia.pt.resources
+C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\bin\Release\AjaxControlToolkit.dll
+C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\obj\Release\Necropsyology.Core.csproj.CopyComplete

@@ -15,3 +15,4 @@ C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Datos\obj\Release\Necropsyology.D
 C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Datos\obj\Release\Necropsyology.Datos.csproj.CopyComplete
 C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Datos\obj\Release\Necropsyology.Datos.dll
 C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Datos\obj\Release\Necropsyology.Datos.pdb
+C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Datos\bin\Release\AjaxControlToolkit.dll

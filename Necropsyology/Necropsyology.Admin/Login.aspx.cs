@@ -36,7 +36,8 @@ namespace Necropsyology.Admin
             RFVUser.ErrorMessage = RecursoGral.UsuarioReq.ToString();
             ValSum.HeaderText = RecursoGral.SumarioError.ToString();
             BtnLogin.Text = RecursoLogin.BtnLogin.ToString();
-            BtnCancelar.Text = RecursoLogin.BTnCancelar.ToString();
+            BtnCancelar.Text = RecursoLogin.BtnCancelar.ToString();
+            BtnRegistro.Text = RecursoLogin.BtnRegistro.ToString();
             RFVPass.ErrorMessage = RecursoGral.PassReq.ToString();
             REXUser.ErrorMessage = RecursoGral.CorreoNoValido.ToString();
             LblCRight.Text = RecursoLogin.LblCRight.ToString();

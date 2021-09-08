@@ -15,111 +15,201 @@ namespace Necropsyology.Admin.Ctrls.ReporteNecros
     {
 
         /// <summary>
-        /// LblTitDatGral control.
+        /// UpdatePanel1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblTitDatGral;
+        protected global::System.Web.UI.UpdatePanel UpdatePanel1;
 
         /// <summary>
-        /// LblEtiOrg control.
+        /// LblTitPaciente control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblEtiOrg;
+        protected global::System.Web.UI.WebControls.Label LblTitPaciente;
 
         /// <summary>
-        /// LblEtiNomOrg control.
+        /// LblEtiIdAnimal control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblEtiNomOrg;
+        protected global::System.Web.UI.WebControls.Label LblEtiIdAnimal;
 
         /// <summary>
-        /// LblValNomOrg control.
+        /// LblEtiEspecie control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblValNomOrg;
+        protected global::System.Web.UI.WebControls.Label LblEtiEspecie;
 
         /// <summary>
-        /// LblEtiDomOrg control.
+        /// LblEtiSexo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblEtiDomOrg;
+        protected global::System.Web.UI.WebControls.Label LblEtiSexo;
 
         /// <summary>
-        /// LblValDomOrg control.
+        /// LblValEtiIdAnimal control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblValDomOrg;
+        protected global::System.Web.UI.WebControls.Label LblValEtiIdAnimal;
 
         /// <summary>
-        /// LblEtiPropOrg control.
+        /// DDLEspecie control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblEtiPropOrg;
+        protected global::System.Web.UI.WebControls.DropDownList DDLEspecie;
 
         /// <summary>
-        /// LblValPropOrg control.
+        /// DDLSexo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblValPropOrg;
+        protected global::System.Web.UI.WebControls.DropDownList DDLSexo;
 
         /// <summary>
-        /// LblEtiTelOrg control.
+        /// LblEtiEdad control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblEtiTelOrg;
+        protected global::System.Web.UI.WebControls.Label LblEtiEdad;
 
         /// <summary>
-        /// LblValTelOrg control.
+        /// LblEtiPeso control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblValTelOrg;
+        protected global::System.Web.UI.WebControls.Label LblEtiPeso;
 
         /// <summary>
-        /// LblEtiMailOrg control.
+        /// LblEtiColor control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblEtiMailOrg;
+        protected global::System.Web.UI.WebControls.Label LblEtiColor;
 
         /// <summary>
-        /// LblValMailOrg control.
+        /// PnlEdad control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblValMailOrg;
+        protected global::System.Web.UI.WebControls.Panel PnlEdad;
+
+        /// <summary>
+        /// PnlPeso control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel PnlPeso;
+
+        /// <summary>
+        /// PnlColor control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel PnlColor;
+
+        /// <summary>
+        /// LblEtiLugMue control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblEtiLugMue;
+
+        /// <summary>
+        /// LblEtiEut control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblEtiEut;
+
+        /// <summary>
+        /// LblEtiFecMue control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblEtiFecMue;
+
+        /// <summary>
+        /// PnlLugMue control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel PnlLugMue;
+
+        /// <summary>
+        /// PnlEut control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel PnlEut;
+
+        /// <summary>
+        /// PnlFecMue control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel PnlFecMue;
+
+        /// <summary>
+        /// LblEtiCond control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblEtiCond;
+
+        /// <summary>
+        /// PnlCondicion control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel PnlCondicion;
     }
 }

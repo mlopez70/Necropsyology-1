@@ -40,6 +40,7 @@ C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\bin\Debug\fr\Necropsyology.C
 C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\bin\Debug\it\Necropsyology.Core.resources.dll
 C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\bin\Debug\pt-BR\Necropsyology.Core.resources.dll
 C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\bin\Debug\pt\Necropsyology.Core.resources.dll
+C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\bin\Debug\AjaxControlToolkit.dll
 C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\obj\Debug\Necropsyology.Core.csproj.AssemblyReference.cache
 C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\obj\Debug\Necropsyology.Core.Recurso.RecursoGral.resources
 C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\obj\Debug\Necropsyology.Core.Recurso.RecursoListadoNecros.resources
@@ -105,5 +106,6 @@ C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\obj\Debug\fr\Necropsyology.C
 C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\obj\Debug\it\Necropsyology.Core.resources.dll
 C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\obj\Debug\pt-BR\Necropsyology.Core.resources.dll
 C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\obj\Debug\pt\Necropsyology.Core.resources.dll
+C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\obj\Debug\Necropsyology.Core.csproj.CopyComplete
 C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\obj\Debug\Necropsyology.Core.dll
 C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Core\obj\Debug\Necropsyology.Core.pdb

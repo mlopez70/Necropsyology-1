@@ -7,6 +7,7 @@ E:\Proyectos\ReneAndCo\Necropsyology\Necropsyology.Datos\obj\Debug\Necropsyology
 C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Datos\bin\Debug\Necropsyology.Datos.dll
 C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Datos\bin\Debug\Necropsyology.Datos.pdb
 C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Datos\bin\Debug\Necropsyology.Core.dll
+C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Datos\bin\Debug\AjaxControlToolkit.dll
 C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Datos\bin\Debug\Necropsyology.Core.pdb
 C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Datos\bin\Debug\de\Necropsyology.Core.resources.dll
 C:\Proyectos\ReneAndCo\NewNecros\Necropsyology.Datos\bin\Debug\de-DE\Necropsyology.Core.resources.dll

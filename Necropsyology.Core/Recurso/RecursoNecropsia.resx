@@ -128,18 +128,108 @@
     <value>Organization</value>
   </data>
   <data name="LblEtiNomOrg" xml:space="preserve">
-    <value>Organization Name</value>
+    <value>Name</value>
   </data>
   <data name="LblEtiDomOrg" xml:space="preserve">
     <value>Address Organization</value>
   </data>
   <data name="LblEtiPropOrg" xml:space="preserve">
-    <value>Owner Organization</value>
+    <value>Owner</value>
   </data>
   <data name="LblEtiTelOrg" xml:space="preserve">
     <value>Organization Phone</value>
   </data>
   <data name="LblEtiMailOrg" xml:space="preserve">
-    <value>Email Organization</value>
+    <value>Email</value>
+  </data>
+  <data name="LblTitPaciente" xml:space="preserve">
+    <value>Patient Information</value>
+  </data>
+  <data name="LblEtiIdAnimal" xml:space="preserve">
+    <value>Animal Id</value>
+  </data>
+  <data name="LblEtiEspecie" xml:space="preserve">
+    <value>Species</value>
+  </data>
+  <data name="LblEtiSexo" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="LblItemSel" xml:space="preserve">
+    <value>Choose one</value>
+  </data>
+  <data name="LblEtiEdad" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="LblEtiPeso" xml:space="preserve">
+    <value>Weight</value>
+  </data>
+  <data name="LblEtiColor" xml:space="preserve">
+    <value>Colour</value>
+  </data>
+  <data name="TxtPHEdad" xml:space="preserve">
+    <value>Indicate Age</value>
+  </data>
+  <data name="TxtPHPeso" xml:space="preserve">
+    <value>Indicate Weight</value>
+  </data>
+  <data name="TxtPHColor" xml:space="preserve">
+    <value>Indicate Color</value>
+  </data>
+  <data name="LblEtiLugMue" xml:space="preserve">
+    <value>Place of death</value>
+  </data>
+  <data name="LblEtiEut" xml:space="preserve">
+    <value>Euthanasia</value>
+  </data>
+  <data name="LblEtiFecMue" xml:space="preserve">
+    <value>Date of Death</value>
+  </data>
+  <data name="TxtPHFecMue" xml:space="preserve">
+    <value>indicate Date of Death</value>
+  </data>
+  <data name="TxtPHLugMue" xml:space="preserve">
+    <value>Indicate Place of Death</value>
+  </data>
+  <data name="TxtPHEut" xml:space="preserve">
+    <value>Indicate performed euthanasia</value>
+  </data>
+  <data name="TxtPHCondicion" xml:space="preserve">
+    <value>Indicate Body Condition</value>
+  </data>
+  <data name="LblEtiCond" xml:space="preserve">
+    <value>Body Condition</value>
+  </data>
+  <data name="LblTitHistoria" xml:space="preserve">
+    <value>Disease Background</value>
+  </data>
+  <data name="LblEtiSignos" xml:space="preserve">
+    <value>Signs</value>
+  </data>
+  <data name="TxtPHSignos" xml:space="preserve">
+    <value>Indicate Signs Illness</value>
+  </data>
+  <data name="LblEtiTratamiento" xml:space="preserve">
+    <value>Treatment</value>
+  </data>
+  <data name="TxtPHTratamiento" xml:space="preserve">
+    <value>Indicate Treating often</value>
+  </data>
+  <data name="LblEtiDiagnostico" xml:space="preserve">
+    <value>Clinical diagnosis</value>
+  </data>
+  <data name="TxtPHDiagnostico" xml:space="preserve">
+    <value>Indicate Medical Diagnosis</value>
+  </data>
+  <data name="LblEtiHistoria" xml:space="preserve">
+    <value>Animal History</value>
+  </data>
+  <data name="TxtPHHistoria" xml:space="preserve">
+    <value>Indicate Animal History</value>
+  </data>
+  <data name="LblEtiDiasEnfer" xml:space="preserve">
+    <value>Sick Days</value>
+  </data>
+  <data name="TxtPHDiasEnfer" xml:space="preserve">
+    <value>Indicate Sick Days</value>
   </data>
 </root>

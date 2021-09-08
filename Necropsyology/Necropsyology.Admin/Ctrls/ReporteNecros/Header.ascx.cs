@@ -21,7 +21,7 @@ namespace Necropsyology.Admin.Ctrls.ReporteNecros
         protected void ConfiguraCTRL()
         {         
             LblValFolio.Text = oCaso.Folio;         
-            LblValFecha.Text = oCaso.FechaCaso.ToString("d");          
+            LblValFecha.Text = oCaso.FechaCaso.ToString("D");          
         }
     }
 }

@@ -18,6 +18,8 @@
 .RenglonBoton{
     height:100px;
 }
-.BotonBorderRedondo{
-    border-radius:50px;
+.BotonBorderRedondo {
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px
 }

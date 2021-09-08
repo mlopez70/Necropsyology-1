@@ -1613,7 +1613,10 @@
     <Content Include="assets\vendor\summernote\summernote-bs3.css" />
     <Content Include="assets\vendor\summernote\summernote.css" />
     <Content Include="assets\vendor\summernote\summernote.js" />
+    <Content Include="css\Ballon-Oval.css" />
     <Content Include="css\base.css" />
+    <Content Include="css\button.css" />
+    <Content Include="css\Calendario.css" />
     <Content Include="css\font-awesome\css\fa-brands.css" />
     <Content Include="css\font-awesome\css\fa-brands.min.css" />
     <Content Include="css\font-awesome\css\fa-regular.css" />
@@ -1635,7 +1638,9 @@
     <Content Include="css\micons\micons.css" />
     <Content Include="css\Principal.css" />
     <Content Include="css\ReporteNecro.css" />
+    <Content Include="css\ToolTip.css" />
     <Content Include="css\vendor.css" />
+    <Content Include="Ctrls\ReporteNecros\CtrlHistClinica.ascx" />
     <Content Include="Ctrls\ReporteNecros\CtrlOrganizacion.ascx" />
     <Content Include="Ctrls\Imagenes.ascx" />
     <Content Include="Ctrls\Pulmon.ascx" />
@@ -1653,7 +1658,8 @@
     <Content Include="images\avatars\user-03.jpg" />
     <Content Include="images\avatars\user-04.jpg" />
     <Content Include="images\avatars\user-05.jpg" />
-    <Content Include="images\Fondos\ModGeo.jpg" />
+    <Content Include="images\Fondos\Fondo_App.jpg" />
+    <Content Include="images\Fondos\ModGeo1.jpg" />
     <Content Include="images\google-play.png" />
     <Content Include="images\hero-app-screens-1600.png" />
     <Content Include="images\hero-app-screens-800.png" />
@@ -1699,6 +1705,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CoreWEB\CoreWEB.cs" />
+    <Compile Include="Ctrls\ReporteNecros\CtrlHistClinica.ascx.cs">
+      <DependentUpon>CtrlHistClinica.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ctrls\ReporteNecros\CtrlHistClinica.ascx.designer.cs">
+      <DependentUpon>CtrlHistClinica.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Ctrls\ReporteNecros\CtrlOrganizacion.ascx.cs">
       <DependentUpon>CtrlOrganizacion.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

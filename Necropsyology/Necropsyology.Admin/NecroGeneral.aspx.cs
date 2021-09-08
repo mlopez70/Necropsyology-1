@@ -1,11 +1,6 @@
 ﻿using Necropsyology.Core;
-using Necropsyology.Core.Recurso;
 using System;
-using System.Collections.Generic;
 using System.Configuration;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
 using System.Web.UI.WebControls;
 
 namespace Necropsyology.Admin
@@ -27,6 +22,7 @@ namespace Necropsyology.Admin
 
         protected void Page_Load(object sender, EventArgs e)
         {
+           if(!IsPostBack)
             ConfiguraCTRL();
         }
 
@@ -34,6 +30,10 @@ namespace Necropsyology.Admin
         {
             CtrlOrganizacion.Conexion = ConfigurationManager.ConnectionStrings["DefaultConnection"].ToString();
             CtrlOrganizacion.ValorRef = Properties.Settings.Default.CadenaPri;
+
+
+            CtrlPaciente.Conexion = ConfigurationManager.ConnectionStrings["DefaultConnection"].ToString();
+            CtrlPaciente.ValorRef = Properties.Settings.Default.CadenaPri;
 
 
             Utileria.ValorRecurso("RecursoNecropsia", "LblHeaderTitulo", "LblTitulo", this);
@@ -51,7 +51,14 @@ namespace Necropsyology.Admin
             Utileria.ValorRecurso("RecursoNecropsia", "LblEtiPropOrg", "LblEtiPropOrg", this);
             Utileria.ValorRecurso("RecursoNecropsia", "LblEtiTelOrg", "LblEtiTelOrg", this);
             Utileria.ValorRecurso("RecursoNecropsia", "LblEtiMailOrg", "LblEtiMailOrg", this);
+         
         }
 
+        protected void BtnLogin_Click(object sender, EventArgs e)
+        {
+            TextBox oTxt=(TextBox) Utileria.FindControlRecursive(CtrlPaciente, "TxtValEdad");
+            //String sdat = oTxt.Text;
+            //String sfat = "";
+        }
     }
 }

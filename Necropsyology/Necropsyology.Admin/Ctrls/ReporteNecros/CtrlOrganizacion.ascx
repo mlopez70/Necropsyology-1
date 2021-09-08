@@ -15,7 +15,7 @@
                     <asp:Label ID="LblEtiOrg" runat="server" CssClass="LeftEtiqueta"></asp:Label>
                 </td>
                 <td class="Columna75">
-                    <asp:DropDownList ID="DDLOrg" runat="server" CssClass="LeftEtiqueta" AutoPostBack="True" OnSelectedIndexChanged="DDLOrg_SelectedIndexChanged" Width="50%"></asp:DropDownList>
+                    <asp:DropDownList ID="DDLOrg" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DDLOrg_SelectedIndexChanged" CssClass="EstiloCombo"></asp:DropDownList>
                 </td>
             </tr>
             <tr>
@@ -58,6 +58,9 @@
                     <asp:Label ID="LblValMailOrg" runat="server" CssClass="LeftValor" Style="text-transform: lowercase"></asp:Label>
                 </td>
             </tr>
+            <tr class="RenglonSeparador">
+            <td></td>
+        </tr>
         </table>
     </ContentTemplate>
     <Triggers>

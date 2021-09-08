@@ -106,6 +106,15 @@ namespace Necropsyology.Core.Recurso {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Diagnosis.
+        /// </summary>
+        public static string HColDiagnostico {
+            get {
+                return ResourceManager.GetString("HColDiagnostico", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to date.
         /// </summary>
         public static string HColFecha {

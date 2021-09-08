@@ -129,13 +129,16 @@
   <data name="PHolderTxtContra" xml:space="preserve">
     <value>Contraseña</value>
   </data>
-  <data name="BTnCancelar" xml:space="preserve">
+  <data name="BtnCancelar" xml:space="preserve">
     <value>Cancelar</value>
   </data>
   <data name="BtnLogin" xml:space="preserve">
-    <value>Iniciar sesión</value>
+    <value>Acceder</value>
   </data>
   <data name="LblCRight" xml:space="preserve">
     <value>Todos los derechos reservados</value>
+  </data>
+  <data name="BtnRegistro" xml:space="preserve">
+    <value>Registro</value>
   </data>
 </root>

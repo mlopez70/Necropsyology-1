@@ -127,4 +127,7 @@
   <data name="BtnAccion" xml:space="preserve">
     <value>Choices</value>
   </data>
+  <data name="HColDiagnostico" xml:space="preserve">
+    <value>Diagnosis</value>
+  </data>
 </root>

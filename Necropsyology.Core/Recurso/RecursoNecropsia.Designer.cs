@@ -70,11 +70,56 @@ namespace Necropsyology.Core.Recurso {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Colour.
+        /// </summary>
+        public static string LblEtiColor {
+            get {
+                return ResourceManager.GetString("LblEtiColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Body Condition.
+        /// </summary>
+        public static string LblEtiCond {
+            get {
+                return ResourceManager.GetString("LblEtiCond", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Clinical diagnosis.
+        /// </summary>
+        public static string LblEtiDiagnostico {
+            get {
+                return ResourceManager.GetString("LblEtiDiagnostico", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sick Days.
+        /// </summary>
+        public static string LblEtiDiasEnfer {
+            get {
+                return ResourceManager.GetString("LblEtiDiasEnfer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Address Organization.
         /// </summary>
         public static string LblEtiDomOrg {
             get {
                 return ResourceManager.GetString("LblEtiDomOrg", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Age.
+        /// </summary>
+        public static string LblEtiEdad {
+            get {
+                return ResourceManager.GetString("LblEtiEdad", resourceCulture);
             }
         }
         
@@ -88,11 +133,38 @@ namespace Necropsyology.Core.Recurso {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Species.
+        /// </summary>
+        public static string LblEtiEspecie {
+            get {
+                return ResourceManager.GetString("LblEtiEspecie", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Euthanasia.
+        /// </summary>
+        public static string LblEtiEut {
+            get {
+                return ResourceManager.GetString("LblEtiEut", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Date.
         /// </summary>
         public static string LblEtiFecha {
             get {
                 return ResourceManager.GetString("LblEtiFecha", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Date of Death.
+        /// </summary>
+        public static string LblEtiFecMue {
+            get {
+                return ResourceManager.GetString("LblEtiFecMue", resourceCulture);
             }
         }
         
@@ -106,7 +178,34 @@ namespace Necropsyology.Core.Recurso {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Email Organization.
+        ///   Looks up a localized string similar to Animal History.
+        /// </summary>
+        public static string LblEtiHistoria {
+            get {
+                return ResourceManager.GetString("LblEtiHistoria", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Animal Id.
+        /// </summary>
+        public static string LblEtiIdAnimal {
+            get {
+                return ResourceManager.GetString("LblEtiIdAnimal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Place of death.
+        /// </summary>
+        public static string LblEtiLugMue {
+            get {
+                return ResourceManager.GetString("LblEtiLugMue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Email.
         /// </summary>
         public static string LblEtiMailOrg {
             get {
@@ -124,7 +223,7 @@ namespace Necropsyology.Core.Recurso {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Organization Name.
+        ///   Looks up a localized string similar to Name.
         /// </summary>
         public static string LblEtiNomOrg {
             get {
@@ -142,11 +241,38 @@ namespace Necropsyology.Core.Recurso {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Owner Organization.
+        ///   Looks up a localized string similar to Weight.
+        /// </summary>
+        public static string LblEtiPeso {
+            get {
+                return ResourceManager.GetString("LblEtiPeso", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Owner.
         /// </summary>
         public static string LblEtiPropOrg {
             get {
                 return ResourceManager.GetString("LblEtiPropOrg", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sex.
+        /// </summary>
+        public static string LblEtiSexo {
+            get {
+                return ResourceManager.GetString("LblEtiSexo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Signs.
+        /// </summary>
+        public static string LblEtiSignos {
+            get {
+                return ResourceManager.GetString("LblEtiSignos", resourceCulture);
             }
         }
         
@@ -169,11 +295,29 @@ namespace Necropsyology.Core.Recurso {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Treatment.
+        /// </summary>
+        public static string LblEtiTratamiento {
+            get {
+                return ResourceManager.GetString("LblEtiTratamiento", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to General Necropsy Report.
         /// </summary>
         public static string LblHeaderTitulo {
             get {
                 return ResourceManager.GetString("LblHeaderTitulo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Choose one.
+        /// </summary>
+        public static string LblItemSel {
+            get {
+                return ResourceManager.GetString("LblItemSel", resourceCulture);
             }
         }
         
@@ -187,11 +331,137 @@ namespace Necropsyology.Core.Recurso {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Disease Background.
+        /// </summary>
+        public static string LblTitHistoria {
+            get {
+                return ResourceManager.GetString("LblTitHistoria", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to MVZ information.
         /// </summary>
         public static string LblTitMVZ {
             get {
                 return ResourceManager.GetString("LblTitMVZ", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Patient Information.
+        /// </summary>
+        public static string LblTitPaciente {
+            get {
+                return ResourceManager.GetString("LblTitPaciente", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Indicate Color.
+        /// </summary>
+        public static string TxtPHColor {
+            get {
+                return ResourceManager.GetString("TxtPHColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Indicate Body Condition.
+        /// </summary>
+        public static string TxtPHCondicion {
+            get {
+                return ResourceManager.GetString("TxtPHCondicion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Indicate Medical Diagnosis.
+        /// </summary>
+        public static string TxtPHDiagnostico {
+            get {
+                return ResourceManager.GetString("TxtPHDiagnostico", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Indicate Sick Days.
+        /// </summary>
+        public static string TxtPHDiasEnfer {
+            get {
+                return ResourceManager.GetString("TxtPHDiasEnfer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Indicate Age.
+        /// </summary>
+        public static string TxtPHEdad {
+            get {
+                return ResourceManager.GetString("TxtPHEdad", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Indicate performed euthanasia.
+        /// </summary>
+        public static string TxtPHEut {
+            get {
+                return ResourceManager.GetString("TxtPHEut", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to indicate Date of Death.
+        /// </summary>
+        public static string TxtPHFecMue {
+            get {
+                return ResourceManager.GetString("TxtPHFecMue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Indicate Animal History.
+        /// </summary>
+        public static string TxtPHHistoria {
+            get {
+                return ResourceManager.GetString("TxtPHHistoria", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Indicate Place of Death.
+        /// </summary>
+        public static string TxtPHLugMue {
+            get {
+                return ResourceManager.GetString("TxtPHLugMue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Indicate Weight.
+        /// </summary>
+        public static string TxtPHPeso {
+            get {
+                return ResourceManager.GetString("TxtPHPeso", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Indicate Signs Illness.
+        /// </summary>
+        public static string TxtPHSignos {
+            get {
+                return ResourceManager.GetString("TxtPHSignos", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Indicate Treating often.
+        /// </summary>
+        public static string TxtPHTratamiento {
+            get {
+                return ResourceManager.GetString("TxtPHTratamiento", resourceCulture);
             }
         }
     }

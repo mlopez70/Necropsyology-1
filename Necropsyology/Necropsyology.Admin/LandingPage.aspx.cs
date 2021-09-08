@@ -23,8 +23,7 @@ namespace Necropsyology.Admin
 
 
         protected void Page_Load(object sender, EventArgs e)
-        {
-            
+        {            
             LblIntro.Text = Recursos.Intro.ToString();
             LblPromo1.Text = Recursos.Promo1.ToString();
             LblAcerca.Text = Recursos.Acerca.ToString();

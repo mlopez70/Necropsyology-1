@@ -6,7 +6,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <%--  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>--%>
-    <asp:Panel ID="Panel1" runat="server" HorizontalAlign="Center" >
+    <asp:Panel ID="Panel1" runat="server" HorizontalAlign="Center">
         <table class="TablaPrincipal">
             <tr>
                 <td colspan="3">
@@ -14,67 +14,64 @@
                 </td>
             </tr>
             <tr class="RenglonBoton">
-                <td >
-                    <asp:Button ID="BtnNewOrg" runat="server" CssClass="btn btn-facebook BotonBorderRedondo" />                   
+                <td>
+                    <asp:Button ID="BtnNewOrg" runat="server" class="BtnNewOrganiza" />
                 </td>
                 <td>
-                   <asp:Button ID="BtnNewRepGral" runat="server" CssClass="btn btn-warning BotonBorderRedondo" />  
+                    <asp:Button ID="BtnNewRepGral" runat="server" class="BtnNewGeneral" />
                 </td>
                 <td>
-                   <asp:Button ID="BtnNewRepBov" runat="server" CssClass="btn btn-success BotonBorderRedondo" />
+                    <asp:Button ID="BtnNewRepBov" runat="server" class="BtnNewBovino" />
                 </td>
             </tr>
             <tr>
                 <td colspan="3">
-                    <asp:GridView ID="GrdNecros" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" Width="100%" Font-Size="Medium" OnPageIndexChanging="GrdNecros_PageIndexChanging" PageSize="17" CellPadding="4" ForeColor="#333333" GridLines="None" OnSelectedIndexChanged="GrdNecros_SelectedIndexChanged">
-                        <AlternatingRowStyle BackColor="LightCyan" ForeColor="#284775" />
+                    <asp:GridView ID="GrdNecros" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" Width="100%" Font-Size="X-Small" OnPageIndexChanging="GrdNecros_PageIndexChanging" CellPadding="3" GridLines="Horizontal" OnSelectedIndexChanged="GrdNecros_SelectedIndexChanged" Font-Names="Calibri" BackColor="White" BorderColor="#E7E7FF" BorderStyle="None" BorderWidth="1px">
+                        <AlternatingRowStyle BackColor="#F7F7F7" />
                         <Columns>
-                            <asp:BoundField DataField="Folio" HeaderText="Folio">
-                                <HeaderStyle HorizontalAlign="Center" Width="200px" />
-                                <ItemStyle HorizontalAlign="Left" />
+                            <asp:BoundField DataField="Folio" HeaderText="Folio" SortExpression="Folio">
+                                <ItemStyle HorizontalAlign="Left" VerticalAlign="Middle" Width="5%" />
                             </asp:BoundField>
-                            <asp:BoundField DataField="Organiza" HeaderText="Organizacion">
-                                <HeaderStyle HorizontalAlign="Center" />
-                                <ItemStyle HorizontalAlign="Left" />
+                            <asp:BoundField DataField="Fecha" DataFormatString="{0:dd/MM/yyyy}" HeaderText="Fecha" SortExpression="Fecha">
+                                <ItemStyle HorizontalAlign="Left" VerticalAlign="Middle" Width="5%" />
                             </asp:BoundField>
-                            <asp:BoundField DataField="Id_Animal" HeaderText="Animal ID">
-                                <HeaderStyle HorizontalAlign="Center" />
-                                <ItemStyle HorizontalAlign="Left" />
+                            <asp:BoundField DataField="Organizacion" HeaderText="Organizacion" SortExpression="Organizacion">
+                            <ItemStyle HorizontalAlign="Left" VerticalAlign="Middle" Width="35%" />
                             </asp:BoundField>
-                            <asp:BoundField DataField="Fecha" DataFormatString="{0:dd/MM/yyyy}" HeaderText="Fecha">
-                                <HeaderStyle HorizontalAlign="Center" Width="100px" />
-                                <ItemStyle HorizontalAlign="Left" />
+                            <asp:BoundField DataField="Id_Animal" HeaderText="Animal" SortExpression="Id_Animal">
+                            <ItemStyle HorizontalAlign="Left" VerticalAlign="Middle" Width="10%" />
+                            </asp:BoundField>
+                            <asp:BoundField DataField="Diagnostico" HeaderText="Diagnostico" SortExpression="Diagnostico">
+                            <ItemStyle HorizontalAlign="Left" VerticalAlign="Middle" Width="35%" />
                             </asp:BoundField>
                             <asp:TemplateField HeaderText="Acciones">
                                 <ItemTemplate>
                                     <div class="btn-group btn-group-sm">
-                                        <asp:Button ID="BtnAccion" runat="server" class="btn btn-info dropdown-toggle" data-toggle="dropdown" Text="..."/>
-                                       <%-- <button class="btn btn-info dropdown-toggle" data-toggle="dropdown" >
+                                        <asp:Button ID="BtnAccion" runat="server" class="btn btn-info dropdown-toggle" data-toggle="dropdown" Text="..." />
+                                        <%-- <button class="btn btn-info dropdown-toggle" data-toggle="dropdown" >
                                             Opciones
                                         </button>--%>
                                         <div class="dropdown-menu btn-success">
-                                            <asp:LinkButton CausesValidation="false" ID="BtnEditGral" runat="server" OnClick="BtnEditGral_Click" CommandName="select" CssClass="btn btn-success" Font-Size="X-Small" Width="100%"><i class="fa fa-edit"></i> Editar reporte general</asp:LinkButton>
+                                            <asp:LinkButton ID="BtnEditGral" runat="server" CausesValidation="false" CommandName="select" CssClass="btn btn-success" Font-Size="X-Small" OnClick="BtnEditGral_Click" Width="100%"><i class="fa fa-edit"></i> Editar reporte general</asp:LinkButton>
                                             <br />
-                                            <asp:LinkButton CausesValidation="false" ID="BtnEdtBovino" runat="server" OnClick="BtnEditBov_Click" CommandName="select" CssClass="btn btn-success" Font-Size="X-Small" Width="100%"><i class="fa fa-edit"></i> Editar reporte bovino</asp:LinkButton>
-
+                                            <asp:LinkButton ID="BtnEdtBovino" runat="server" CausesValidation="false" CommandName="select" CssClass="btn btn-success" Font-Size="X-Small" OnClick="BtnEditBov_Click" Width="100%"><i class="fa fa-edit"></i> Editar reporte bovino</asp:LinkButton>
                                         </div>
                                     </div>
                                     <asp:Label ID="LblFolio" runat="server" Text='<%# Bind("Folio") %>' Visible="False"></asp:Label>
                                 </ItemTemplate>
-                                <ItemStyle CssClass="text-center" />
                                 <HeaderStyle CssClass="text-center" />
+                                <ItemStyle CssClass="text-center" Width="10%" />
                             </asp:TemplateField>
                         </Columns>
-                        <EditRowStyle BackColor="#999999" />
-                        <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
-                        <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
-                        <PagerStyle BackColor="#284775" ForeColor="White" HorizontalAlign="Center" />
-                        <RowStyle BackColor="#F7F6F3" ForeColor="#333333" />
-                        <SelectedRowStyle BackColor="#E2DED6" Font-Bold="True" ForeColor="#333333" />
-                        <SortedAscendingCellStyle BackColor="#E9E7E2" />
-                        <SortedAscendingHeaderStyle BackColor="#506C8C" />
-                        <SortedDescendingCellStyle BackColor="#FFFDF8" />
-                        <SortedDescendingHeaderStyle BackColor="#6F8DAE" />
+                        <FooterStyle BackColor="#B5C7DE" ForeColor="#4A3C8C" />
+                        <HeaderStyle BackColor="#4A3C8C" Font-Bold="True" ForeColor="#F7F7F7" />
+                        <PagerStyle BackColor="#E7E7FF" ForeColor="#4A3C8C" HorizontalAlign="Justify" />
+                        <RowStyle BackColor="#E7E7FF" ForeColor="#4A3C8C" />
+                        <SelectedRowStyle BackColor="#738A9C" Font-Bold="True" ForeColor="#F7F7F7" />
+                        <SortedAscendingCellStyle BackColor="#F4F4FD" />
+                        <SortedAscendingHeaderStyle BackColor="#5A4C9D" />
+                        <SortedDescendingCellStyle BackColor="#D8D8F0" />
+                        <SortedDescendingHeaderStyle BackColor="#3E3277" />
                     </asp:GridView>
                 </td>
             </tr>

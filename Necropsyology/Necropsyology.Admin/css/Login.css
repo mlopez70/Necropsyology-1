@@ -1,7 +1,7 @@
 ﻿/*author:starttemplate*/
 /*reference site : starttemplate.com*/
 body {
-    background-image: url('../images/fondos/ModGeo.jpg');
+    background-image: url('../images/fondos/Fondo_App.jpg');
     background-position: center;
     background-size: cover;
     -webkit-font-smoothing: antialiased;
@@ -63,4 +63,37 @@ h4 {
 
 .footer p {
     font-size: 18px;
+}
+
+.BotonLogin {
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    background-color: limegreen;
+    font-size: large;
+    font-family: Calibri;
+    box-shadow: 20px 20px 50px black;
+    -moz-box-shadow: 20px 20px 50px black;
+}
+
+
+.BotonRegistro {
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    background-color: yellow;
+    font-size: large;
+    font-family: Calibri;   
+}
+
+
+.BotonCancelar {
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    background-color: red;
+    font-size: large;
+    font-family: Calibri;
+   
 }

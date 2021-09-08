@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Especie.cs" />
     <Compile Include="Models\Organizacion.cs" />
     <Compile Include="Core\Data.cs" />
     <Compile Include="Models\Necropsia.cs" />
