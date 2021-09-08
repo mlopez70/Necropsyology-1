@@ -1684,6 +1684,9 @@
     <Content Include="images\Pulmon\P-1-2-3-4-5-6-7.png" />
     <Content Include="images\Pulmon\P-1-2-3-4-5-6.png" />
     <Content Include="images\Pulmon\P-1-2-3-4-5.png" />
+    <Content Include="images\Pulmon\P-1-2-3-4-6.png" />
+    <Content Include="images\Pulmon\P-1-2-3-4-7.png" />
+    <Content Include="images\Pulmon\P-1-2-3-4-8.png" />
     <Content Include="images\Pulmon\P-1-2-3-4.png" />
     <Content Include="images\Pulmon\P-1-2-3.png" />
     <Content Include="images\Pulmon\P-1-2.png" />
@@ -1731,6 +1734,7 @@
     <Content Include="images\Pulmon\P-7-8.png" />
     <Content Include="images\Pulmon\P-7.png" />
     <Content Include="images\Pulmon\P-8.png" />
+    <Content Include="images\Pulmon\P.png" />
     <Content Include="images\Pulmon\Pul1.png" />
     <Content Include="images\Pulmon\PulMed.png" />
     <Content Include="images\Pulmon\Pulmones.png" />
