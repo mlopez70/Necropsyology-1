@@ -7,7 +7,7 @@
     </tr>
     <tr>
         <td>
-            <asp:Image ID="Image1" runat="server" Height="250px" ImageUrl="~/images/Trabajo/Pulmones.png" />
+            <asp:Image ID="ImgPul" runat="server" Height="250px" ImageUrl="~/images/Pulmon/Pulmones.png" />
         </td>
     </tr>
     <tr>
@@ -15,7 +15,12 @@
             <table style="text-align: center; vertical-align: middle;width:100%">
                 <tr>
                     <td style="text-align: right; vertical-align: middle;width:50%">
-                        <asp:CheckBoxList ID="ChkPul" runat="server" Width="100%">
+                        <asp:CheckBoxList ID="ChkPul" 
+                            runat="server" 
+                            Width="100%" 
+                            OnSelectedIndexChanged="ChkPul_SelectedIndexChanged"
+                            AutoPostBack="true"
+                            RepeatDirection="Vertical">
                             <asp:ListItem>1</asp:ListItem>
                             <asp:ListItem>2</asp:ListItem>
                             <asp:ListItem>3</asp:ListItem>

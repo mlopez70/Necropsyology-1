@@ -383,7 +383,7 @@ input:-ms-input-placeholder { /* Internet Explorer 10+ */
 /* Seccion Datos del Paciente*/
 .DivPaciente {
     width: 50%;
-    margin: 5% 25%;
+    margin: 2% 25%;
 }
 
 
@@ -418,7 +418,7 @@ input:-ms-input-placeholder { /* Internet Explorer 10+ */
 /* Seccion Historia Clinica*/
 .DivHistoria {
     width: 50%;
-    margin: 5% 25%;
+    margin: 2% 25%;
 }
 
 
@@ -438,6 +438,40 @@ input:-ms-input-placeholder { /* Internet Explorer 10+ */
 .TituloSeccionHistoria {
     color: black;
     background-color: #70AD47;
+    font-size: large;
+    font-family: Calibri;
+    /*border-style:inset;*/
+}
+/*----------------------------------------------------------*/
+
+
+
+
+
+/*----------------------------------------------------------*/
+/* Seccion Historia Clinica*/
+.DivHallazgo{
+    width: 100%;
+    margin: 2% 0%;
+}
+
+
+.TablaHallazgo{
+    background-color: #92acc3;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    box-shadow: 20px 20px 50px black;
+    -moz-box-shadow: 20px 20px 50px black;
+}
+
+
+.TituloSeccionHallazgo{
+    color: yellow;
+    background-color: #274583;
     font-size: large;
     font-family: Calibri;
     /*border-style:inset;*/

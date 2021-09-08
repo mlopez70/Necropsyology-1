@@ -69,6 +69,15 @@ namespace Necropsyology.Admin
         protected global::Necropsyology.Admin.Ctrls.ReporteNecros.CtrlHistClinica CtrlHistClinica;
 
         /// <summary>
+        /// CtrlHallazgo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Necropsyology.Admin.Ctrls.ReporteNecros.CtrlHallazgo CtrlHallazgo;
+
+        /// <summary>
         /// BtnLogin control.
         /// </summary>
         /// <remarks>

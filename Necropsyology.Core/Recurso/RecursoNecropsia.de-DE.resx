@@ -252,4 +252,7 @@
   <data name="TxtPHDiasEnfer" xml:space="preserve">
     <value>Krankheitstage angeben</value>
   </data>
+  <data name="LblTitHallazgo" xml:space="preserve">
+    <value>Obduktionsbefund</value>
+  </data>
 </root>

@@ -52,7 +52,7 @@ namespace Necropsyology.Admin
             GrdNecros.Columns[2].HeaderText = RecursoListadoNecros.HColOrganizacion;
             GrdNecros.Columns[3].HeaderText = RecursoListadoNecros.HColIdAnimal;
             GrdNecros.Columns[4].HeaderText = RecursoListadoNecros.HColDiagnostico;
-            //GrdNecros.Columns[4].HeaderText = RecursoListadoNecros.HColAccion;
+            GrdNecros.Columns[5].HeaderText = RecursoListadoNecros.HColAccion;
             Button Btn = (Button)Utileria.FindControlRecursive(GrdNecros, "BtnAcciom");
             if (Btn != null)
                 Btn.Text = RecursoListadoNecros.BtnAccion;

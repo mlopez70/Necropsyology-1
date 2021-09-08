@@ -331,6 +331,15 @@ namespace Necropsyology.Core.Recurso {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Necropsy finding.
+        /// </summary>
+        public static string LblTitHallazgo {
+            get {
+                return ResourceManager.GetString("LblTitHallazgo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Disease Background.
         /// </summary>
         public static string LblTitHistoria {

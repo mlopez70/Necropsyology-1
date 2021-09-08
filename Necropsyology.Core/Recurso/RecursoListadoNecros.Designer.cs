@@ -115,7 +115,7 @@ namespace Necropsyology.Core.Recurso {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to date.
+        ///   Looks up a localized string similar to Date.
         /// </summary>
         public static string HColFecha {
             get {

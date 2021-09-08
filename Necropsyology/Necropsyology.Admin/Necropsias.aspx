@@ -26,7 +26,7 @@
             </tr>
             <tr>
                 <td colspan="3">
-                    <asp:GridView ID="GrdNecros" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" Width="100%" Font-Size="X-Small" OnPageIndexChanging="GrdNecros_PageIndexChanging" CellPadding="3" GridLines="Horizontal" OnSelectedIndexChanged="GrdNecros_SelectedIndexChanged" Font-Names="Calibri" BackColor="White" BorderColor="#E7E7FF" BorderStyle="None" BorderWidth="1px">
+                    <asp:GridView ID="GrdNecros" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" Width="100%" Font-Size="X-Small" OnPageIndexChanging="GrdNecros_PageIndexChanging" CellPadding="3" OnSelectedIndexChanged="GrdNecros_SelectedIndexChanged" Font-Names="Calibri" BackColor="White" BorderColor="#66CCFF" BorderStyle="Solid" BorderWidth="1px">
                         <AlternatingRowStyle BackColor="#F7F7F7" />
                         <Columns>
                             <asp:BoundField DataField="Folio" HeaderText="Folio" SortExpression="Folio">
@@ -42,7 +42,7 @@
                             <ItemStyle HorizontalAlign="Left" VerticalAlign="Middle" Width="10%" />
                             </asp:BoundField>
                             <asp:BoundField DataField="Diagnostico" HeaderText="Diagnostico" SortExpression="Diagnostico">
-                            <ItemStyle HorizontalAlign="Left" VerticalAlign="Middle" Width="35%" />
+                            <ItemStyle HorizontalAlign="Left" VerticalAlign="Middle" Width="30%" />
                             </asp:BoundField>
                             <asp:TemplateField HeaderText="Acciones">
                                 <ItemTemplate>
@@ -65,7 +65,7 @@
                         </Columns>
                         <FooterStyle BackColor="#B5C7DE" ForeColor="#4A3C8C" />
                         <HeaderStyle BackColor="#4A3C8C" Font-Bold="True" ForeColor="#F7F7F7" />
-                        <PagerStyle BackColor="#E7E7FF" ForeColor="#4A3C8C" HorizontalAlign="Justify" />
+                        <PagerStyle BackColor="#E7E7FF" ForeColor="#4A3C8C" HorizontalAlign="Center" />
                         <RowStyle BackColor="#E7E7FF" ForeColor="#4A3C8C" />
                         <SelectedRowStyle BackColor="#738A9C" Font-Bold="True" ForeColor="#F7F7F7" />
                         <SortedAscendingCellStyle BackColor="#F4F4FD" />

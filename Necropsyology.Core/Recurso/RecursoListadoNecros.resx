@@ -119,7 +119,7 @@
     <value>Animal identifier</value>
   </data>
   <data name="HColFecha" xml:space="preserve">
-    <value>date</value>
+    <value>Date</value>
   </data>
   <data name="HColAccion" xml:space="preserve">
     <value>Actions</value>

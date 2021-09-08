@@ -232,4 +232,7 @@
   <data name="TxtPHDiasEnfer" xml:space="preserve">
     <value>Indicate Sick Days</value>
   </data>
+  <data name="LblTitHallazgo" xml:space="preserve">
+    <value>Necropsy finding</value>
+  </data>
 </root>

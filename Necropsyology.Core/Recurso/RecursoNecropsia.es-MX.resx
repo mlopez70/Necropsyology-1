@@ -139,7 +139,7 @@
     <value>Cédula Profesional</value>
   </data>
   <data name="LblTitMVZ" xml:space="preserve">
-    <value>Información MVZ</value>
+    <value>Información gOOD dOCTOR</value>
   </data>
   <data name="LblTitDatGral" xml:space="preserve">
     <value>Datos organización</value>
@@ -251,5 +251,8 @@
   </data>
   <data name="TxtPHDiasEnfer" xml:space="preserve">
     <value>Indique Días Enfermedad</value>
+  </data>
+  <data name="LblTitHallazgo" xml:space="preserve">
+    <value>Hallazgo Necropsia</value>
   </data>
 </root>

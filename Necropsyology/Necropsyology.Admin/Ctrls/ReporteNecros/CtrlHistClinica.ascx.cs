@@ -1,11 +1,6 @@
 ﻿using Necropsyology.Core;
 using Necropsyology.Datos.Models;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 
 namespace Necropsyology.Admin.Ctrls.ReporteNecros
 {
@@ -34,7 +29,7 @@ namespace Necropsyology.Admin.Ctrls.ReporteNecros
             Utileria.ValorRecurso("RecursoNecropsia", "LblEtiHistoria", "LblEtiHistoria", this);
             Utileria.GeneraCtrl(this, "Historia", oCaso.Historia, Utileria.TipoCtrl.Memo);
             Utileria.ValorRecurso("RecursoNecropsia", "LblEtiDiasEnfer", "LblEtiDiasEnfer", this);
-            Utileria.GeneraCtrl(this, "DiasEnfer", oCaso.DiasEnfer, Utileria.TipoCtrl.Memo);
+            Utileria.GeneraCtrl(this, "DiasEnfer", oCaso.DiasEnfer, Utileria.TipoCtrl.Libre);
         }
     }
 }

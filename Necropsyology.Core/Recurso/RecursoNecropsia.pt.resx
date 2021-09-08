@@ -252,4 +252,7 @@
   <data name="TxtPHDiasEnfer" xml:space="preserve">
     <value>Indicar Dias de Doença</value>
   </data>
+  <data name="LblTitHallazgo" xml:space="preserve">
+    <value>Achado de necropsia</value>
+  </data>
 </root>

@@ -5,6 +5,8 @@
 <%@ Register Src="~/Ctrls/ReporteNecros/CtrlOrganizacion.ascx" TagPrefix="uc1" TagName="CtrlOrganizacion" %>
 <%@ Register Src="~/Ctrls/ReporteNecros/CtrlPaciente.ascx" TagPrefix="uc1" TagName="CtrlPaciente" %>
 <%@ Register Src="~/Ctrls/ReporteNecros/CtrlHistClinica.ascx" TagPrefix="uc1" TagName="CtrlHistClinica" %>
+<%@ Register Src="~/Ctrls/ReporteNecros/CtrlHallazgo.ascx" TagPrefix="uc1" TagName="CtrlHallazgo" %>
+
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -42,6 +44,13 @@
                     <td colspan="3">
                         <div class="DivHistoria">
                             <uc1:CtrlHistClinica runat="server" ID="CtrlHistClinica" />
+                        </div>
+                    </td>
+                </tr>
+                 <tr>
+                    <td colspan="3">
+                        <div class="DivHallazgo">
+                            <uc1:CtrlHallazgo runat="server" ID="CtrlHallazgo" />
                         </div>
                     </td>
                 </tr>
