@@ -260,6 +260,20 @@ namespace Necropsyology.Datos.Models
         }
 
 
+        public DataSet ListadoCorto()
+        {
+            Data Dat = new Data
+            {
+                Conexion = Conexion,
+                Parametros = Parametro("ListadoCorto"),
+                SP_Nombre = "SP_Reporte",
+                ValorRef = ValorRef
+            };
+            DataSet DS = Dat.EjecutaConsultaDS();
+            return DS;
+        }
+
+
         public void Actualiza()
         {
             try

@@ -235,4 +235,19 @@
   <data name="LblTitHallazgo" xml:space="preserve">
     <value>Necropsy finding</value>
   </data>
+  <data name="LblSubTitEsqueleto" xml:space="preserve">
+    <value>Musculoskeletal System</value>
+  </data>
+  <data name="LblEtiColorEsq" xml:space="preserve">
+    <value>Colour</value>
+  </data>
+  <data name="TxtPHColorEsq" xml:space="preserve">
+    <value>Indicate skeleton color</value>
+  </data>
+  <data name="LblEtiEdema" xml:space="preserve">
+    <value>Edema</value>
+  </data>
+  <data name="TxtPHEdema" xml:space="preserve">
+    <value>Indicate presence of edema</value>
+  </data>
 </root>

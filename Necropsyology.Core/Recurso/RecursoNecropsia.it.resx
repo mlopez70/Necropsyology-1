@@ -255,4 +255,19 @@
   <data name="LblTitHallazgo" xml:space="preserve">
     <value>Reperto necroscopia</value>
   </data>
+  <data name="LblSubTitEsqueleto" xml:space="preserve">
+    <value>apparato motorio scheletrico</value>
+  </data>
+  <data name="LblEtiColorEsq" xml:space="preserve">
+    <value>Colore</value>
+  </data>
+  <data name="TxtPHColorEsq" xml:space="preserve">
+    <value>Indica il colore dello scheletro!</value>
+  </data>
+  <data name="LblEtiEdema" xml:space="preserve">
+    <value>Edema</value>
+  </data>
+  <data name="TxtPHEdema" xml:space="preserve">
+    <value>Indica la presenza di edema</value>
+  </data>
 </root>

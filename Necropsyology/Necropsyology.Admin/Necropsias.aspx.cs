@@ -47,12 +47,12 @@ namespace Necropsyology.Admin
             BtnNewOrg.Text = RecursoListadoNecros.BtnNewOrg;
             BtnNewRepGral.Text = RecursoListadoNecros.BtnNewRepGral;
             BtnNewRepBov.Text = RecursoListadoNecros.BtnNRepBov;
-            GrdNecros.Columns[0].HeaderText = RecursoListadoNecros.HColFolio;
-            GrdNecros.Columns[1].HeaderText = RecursoListadoNecros.HColFecha;
-            GrdNecros.Columns[2].HeaderText = RecursoListadoNecros.HColOrganizacion;
-            GrdNecros.Columns[3].HeaderText = RecursoListadoNecros.HColIdAnimal;
-            GrdNecros.Columns[4].HeaderText = RecursoListadoNecros.HColDiagnostico;
-            GrdNecros.Columns[5].HeaderText = RecursoListadoNecros.HColAccion;
+            GrdNecros.Columns[1].HeaderText = RecursoListadoNecros.HColFolio;
+            GrdNecros.Columns[2].HeaderText = RecursoListadoNecros.HColFecha;
+            GrdNecros.Columns[3].HeaderText = RecursoListadoNecros.HColOrganizacion;
+            GrdNecros.Columns[4].HeaderText = RecursoListadoNecros.HColIdAnimal;
+            GrdNecros.Columns[5].HeaderText = RecursoListadoNecros.HColDiagnostico;
+            GrdNecros.Columns[0].HeaderText = RecursoListadoNecros.HColAccion;
             Button Btn = (Button)Utileria.FindControlRecursive(GrdNecros, "BtnAcciom");
             if (Btn != null)
                 Btn.Text = RecursoListadoNecros.BtnAccion;
@@ -64,11 +64,11 @@ namespace Necropsyology.Admin
             Necropsia oNecropsia = new Necropsia
             {
                 Conexion = ConfigurationManager.ConnectionStrings["DefaultConnection"].ToString(),
-                ValorRef = Properties.Settings.Default.CadenaPri,
+                ValorRef = Settings.Default.CadenaPri,
                 IdCliente = oUser.IdUsuario,
                 IdUsuario = oUser.IdUsuario,
             };
-            GrdNecros.DataSource = oNecropsia.Listado();
+            GrdNecros.DataSource = oNecropsia.ListadoCorto();
             GrdNecros.DataBind();
 
             Button Btn = (Button)GrdNecros.FindControl("BtnAccion_1");

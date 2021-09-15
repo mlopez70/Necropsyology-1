@@ -120,7 +120,7 @@ namespace Necropsyology.Core
                     oPnl.Controls.Add(Literal1);
                     TextBox TxtCtrl = new TextBox();
                     TxtCtrl.ID = sIdTxt;
-                    TxtCtrl.Text = sValor;
+                    TxtCtrl.Text = sValor;                    
                     TxtCtrl.CssClass = "LeftGetValor";
                     TxtCtrl.Attributes.Add("placeholder", RecursoNecropsia.ResourceManager.GetString(sIdLlave));
                     oPnl.Controls.Add(TxtCtrl);
@@ -133,7 +133,7 @@ namespace Necropsyology.Core
                     TextBox TxtCtrl = new TextBox();
                     TxtCtrl.ID = sIdTxt;
                     TxtCtrl.Text = sValor;
-                    TxtCtrl.CssClass = "LeftGetValor";
+                    TxtCtrl.CssClass = "LeftGetValor150";
                     TxtCtrl.TextMode = TextBoxMode.MultiLine;
                     TxtCtrl.Attributes.Add("placeholder", RecursoNecropsia.ResourceManager.GetString(sIdLlave));
                     oPnl.Controls.Add(TxtCtrl);

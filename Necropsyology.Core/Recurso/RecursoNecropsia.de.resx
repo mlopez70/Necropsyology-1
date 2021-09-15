@@ -255,4 +255,19 @@
   <data name="LblTitHallazgo" xml:space="preserve">
     <value>Obduktionsbefund</value>
   </data>
+  <data name="LblSubTitEsqueleto" xml:space="preserve">
+    <value>Fortbewegungsapparat</value>
+  </data>
+  <data name="LblEtiColorEsq" xml:space="preserve">
+    <value>Hintergrundfarbe</value>
+  </data>
+  <data name="TxtPHColorEsq" xml:space="preserve">
+    <value>Skelettfarbe angeben!</value>
+  </data>
+  <data name="LblEtiEdema" xml:space="preserve">
+    <value>Ödem</value>
+  </data>
+  <data name="TxtPHEdema" xml:space="preserve">
+    <value>Zeigen Sie das Vorhandensein von Ödemen an!</value>
+  </data>
 </root>

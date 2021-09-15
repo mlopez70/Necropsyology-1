@@ -117,157 +117,121 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="LblEtiFolio" xml:space="preserve">
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
     <value>Folio</value>
   </data>
-  <data name="LblEtiFecha" xml:space="preserve">
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
     <value>Fecha</value>
   </data>
-  <data name="LblHeaderTitulo" xml:space="preserve">
-    <value>Informe general de necropsia</value>
+  <data name="BoundFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
   </data>
-  <data name="LblEtiEmailMVZ" xml:space="preserve">
-    <value>Correo electrónico:</value>
+  <data name="BoundFieldResource3.FooterText" xml:space="preserve">
+    <value />
   </data>
-  <data name="LblEtiNomMVZ" xml:space="preserve">
-    <value>Nombre:</value>
+  <data name="BoundFieldResource3.HeaderText" xml:space="preserve">
+    <value>Organizacion</value>
   </data>
-  <data name="LblEtiTelMVZ" xml:space="preserve">
-    <value>Teléfono</value>
+  <data name="BoundFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
   </data>
-  <data name="LblEtiCedMVZ" xml:space="preserve">
-    <value>Cédula Profesional</value>
+  <data name="BoundFieldResource4.FooterText" xml:space="preserve">
+    <value />
   </data>
-  <data name="LblTitMVZ" xml:space="preserve">
-    <value>Información gOOD dOCTOR</value>
+  <data name="BoundFieldResource4.HeaderText" xml:space="preserve">
+    <value>Animal</value>
   </data>
-  <data name="LblTitDatGral" xml:space="preserve">
-    <value>Datos organización</value>
+  <data name="BoundFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
   </data>
-  <data name="LblEtiOrg" xml:space="preserve">
-    <value>Organización</value>
+  <data name="BoundFieldResource5.FooterText" xml:space="preserve">
+    <value />
   </data>
-  <data name="LblEtiDomOrg" xml:space="preserve">
-    <value>Domicilio</value>
+  <data name="BoundFieldResource5.HeaderText" xml:space="preserve">
+    <value>Diagnostico</value>
   </data>
-  <data name="LblEtiTelOrg" xml:space="preserve">
-    <value>Teléfono</value>
+  <data name="BtnAccionResource1.Text" xml:space="preserve">
+    <value>...</value>
   </data>
-  <data name="LblTitPaciente" xml:space="preserve">
-    <value>Información Paciente</value>
+  <data name="BtnAccionResource1.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="LblEtiIdAnimal" xml:space="preserve">
-    <value>Identificador animal</value>
+  <data name="BtnEditGralResource1.Text" xml:space="preserve">
+    <value>&lt;i class="fa fa-edit"&gt;&lt;/i&gt; Editar reporte general</value>
   </data>
-  <data name="LblEtiEspecie" xml:space="preserve">
-    <value>Especies</value>
+  <data name="BtnEditGralResource1.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="LblEtiSexo" xml:space="preserve">
-    <value>Sexo</value>
+  <data name="BtnEdtBovinoResource1.Text" xml:space="preserve">
+    <value>&lt;i class="fa fa-edit"&gt;&lt;/i&gt; Editar reporte bovino</value>
   </data>
-  <data name="LblItemSel" xml:space="preserve">
-    <value>Elige uno</value>
+  <data name="BtnEdtBovinoResource1.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="LblEtiEdad" xml:space="preserve">
-    <value>Edad</value>
+  <data name="BtnNewOrgResource1.Text" xml:space="preserve">
+    <value />
   </data>
-  <data name="LblEtiPeso" xml:space="preserve">
-    <value>Peso</value>
+  <data name="BtnNewOrgResource1.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="LblEtiColor" xml:space="preserve">
-    <value>Color</value>
+  <data name="BtnNewRepBovResource1.Text" xml:space="preserve">
+    <value />
   </data>
-  <data name="TxtPHEdad" xml:space="preserve">
-    <value>Indique edad</value>
+  <data name="BtnNewRepBovResource1.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="TxtPHPeso" xml:space="preserve">
-    <value>Indique peso</value>
+  <data name="BtnNewRepGralResource1.Text" xml:space="preserve">
+    <value />
   </data>
-  <data name="TxtPHColor" xml:space="preserve">
-    <value>Indique Color</value>
+  <data name="BtnNewRepGralResource1.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="LblEtiPropOrg" xml:space="preserve">
-    <value>Propietario</value>
+  <data name="GrdNecrosResource1.Caption" xml:space="preserve">
+    <value />
   </data>
-  <data name="LblEtiNomOrg" xml:space="preserve">
-    <value>Nombre:</value>
+  <data name="GrdNecrosResource1.EmptyDataText" xml:space="preserve">
+    <value />
   </data>
-  <data name="LblEtiMailOrg" xml:space="preserve">
-    <value>Correo electrónico:</value>
+  <data name="GrdNecrosResource1.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="LblEtiLugMue" xml:space="preserve">
-    <value>Lugar Muerte</value>
+  <data name="LblFolioResource1.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="LblEtiEut" xml:space="preserve">
-    <value>Eutanasia</value>
+  <data name="LblTituloResource1.Text" xml:space="preserve">
+    <value />
   </data>
-  <data name="LblEtiFecMue" xml:space="preserve">
-    <value>Fecha Muerte</value>
+  <data name="LblTituloResource1.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="TxtPHFecMue" xml:space="preserve">
-    <value>Indique Fecha Muerte</value>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Necropsyology [Pagina Inicial]</value>
   </data>
-  <data name="TxtPHLugMue" xml:space="preserve">
-    <value>Indique Lugar Muerte</value>
+  <data name="Panel1Resource1.GroupingText" xml:space="preserve">
+    <value />
   </data>
-  <data name="TxtPHEut" xml:space="preserve">
-    <value>Indique realizó eutanasia</value>
+  <data name="Panel1Resource1.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="TxtPHCondicion" xml:space="preserve">
-    <value>Indique Condición Corporal</value>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
   </data>
-  <data name="LblEtiCond" xml:space="preserve">
-    <value>Condición Corporal</value>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
   </data>
-  <data name="LblTitHistoria" xml:space="preserve">
-    <value>Antecedentes Enfermedad</value>
-  </data>
-  <data name="LblEtiSignos" xml:space="preserve">
-    <value>Signos</value>
-  </data>
-  <data name="TxtPHSignos" xml:space="preserve">
-    <value>¡Indique signos de enfermedad!</value>
-  </data>
-  <data name="LblEtiTratamiento" xml:space="preserve">
-    <value>Tratamiento</value>
-  </data>
-  <data name="TxtPHTratamiento" xml:space="preserve">
-    <value>Indique Tratamiento Seguido</value>
-  </data>
-  <data name="LblEtiDiagnostico" xml:space="preserve">
-    <value>Diagnóstico médico</value>
-  </data>
-  <data name="TxtPHDiagnostico" xml:space="preserve">
-    <value>Indique Diagnóstico Médico</value>
-  </data>
-  <data name="LblEtiHistoria" xml:space="preserve">
-    <value>Historia Animal</value>
-  </data>
-  <data name="TxtPHHistoria" xml:space="preserve">
-    <value>Indique Historia Animal</value>
-  </data>
-  <data name="LblEtiDiasEnfer" xml:space="preserve">
-    <value>Días Enfermedad</value>
-  </data>
-  <data name="TxtPHDiasEnfer" xml:space="preserve">
-    <value>Indique Días Enfermedad</value>
-  </data>
-  <data name="LblTitHallazgo" xml:space="preserve">
-    <value>Hallazgo Necropsia</value>
-  </data>
-  <data name="LblSubTitEsqueleto" xml:space="preserve">
-    <value>Sistemas muscuo-esquelético</value>
-  </data>
-  <data name="LblEtiColorEsq" xml:space="preserve">
-    <value>Color</value>
-  </data>
-  <data name="TxtPHColorEsq" xml:space="preserve">
-    <value>¡Indique el color del esqueleto!</value>
-  </data>
-  <data name="LblEtiEdema" xml:space="preserve">
-    <value>Edema</value>
-  </data>
-  <data name="TxtPHEdema" xml:space="preserve">
-    <value>Indique presencia edema</value>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>Acciones</value>
   </data>
 </root>

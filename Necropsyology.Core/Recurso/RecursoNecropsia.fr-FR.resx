@@ -255,4 +255,19 @@
   <data name="LblTitHallazgo" xml:space="preserve">
     <value>Conclusion à l'autopsie</value>
   </data>
+  <data name="LblSubTitEsqueleto" xml:space="preserve">
+    <value>Appareil Locomoteur</value>
+  </data>
+  <data name="LblEtiColorEsq" xml:space="preserve">
+    <value>Couleur</value>
+  </data>
+  <data name="TxtPHColorEsq" xml:space="preserve">
+    <value>Indiquez la couleur du squelette !</value>
+  </data>
+  <data name="LblEtiEdema" xml:space="preserve">
+    <value>Œdème</value>
+  </data>
+  <data name="TxtPHEdema" xml:space="preserve">
+    <value>Indiquer la présence d'œdème</value>
+  </data>
 </root>

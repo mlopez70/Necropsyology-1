@@ -46,12 +46,12 @@
                 </td>
             </tr>
             <tr>
-                <td class="Columna45">
+                <td colspan="2">
                     <asp:Label ID="LblEtiDiasEnfer" runat="server" CssClass="LeftEtiqueta"></asp:Label>
                 </td>
             </tr>
             <tr>
-                <td class="Columna45">
+                <td colspan="2">
                     <asp:Panel ID="PnlDiasEnfer" runat="server"></asp:Panel>
                 </td>
             </tr>

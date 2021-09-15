@@ -21,6 +21,15 @@ namespace Necropsyology.Admin.Ctrls.ReporteNecros
         {
 
             Utileria.ValorRecurso("RecursoNecropsia", "LblTitHallazgo", "LblTitHallazgo", this);
+            Utileria.ValorRecurso("RecursoNecropsia", "LblSubTitEsqueleto", "LblSubTitEsqueleto", this);
+            Utileria.ValorRecurso("RecursoNecropsia", "LblEtiColorEsq", "LblEtiColorEsq", this);
+            Utileria.GeneraCtrl(this, "ColorEsq", oCaso.ColorEsque, Utileria.TipoCtrl.Memo);
+            Utileria.ValorRecurso("RecursoNecropsia", "LblEtiEdema", "LblEtiEdema", this);
+            Utileria.GeneraCtrl(this, "Edema", oCaso.ColorEsque, Utileria.TipoCtrl.Memo);
+            Utileria.ValorRecurso("RecursoNecropsia", "LblEtiEdema", "LblEtiEdema", this);
+            Utileria.GeneraCtrl(this, "Edema", oCaso.ColorEsque, Utileria.TipoCtrl.Memo);
+            Utileria.ValorRecurso("RecursoNecropsia", "LblEtiEdema", "LblEtiEdema", this);
+            Utileria.GeneraCtrl(this, "Edema", oCaso.ColorEsque, Utileria.TipoCtrl.Memo);
         }
     }
 }
